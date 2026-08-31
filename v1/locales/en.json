@@ -41,7 +41,7 @@
       ]
     },
     {
-      "slug": "gs1-compliance",
+      "slug": "compliance",
       "title": "GS1 Compliance",
       "description": "Rules and standards for valid GS1 barcodes.",
       "author": "Brian McKinley",

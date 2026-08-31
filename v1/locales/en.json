@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "slug": "getting-started",
+      "title": "Getting Started",
+      "description": "The basics to get up and running quickly.",
+      "author": "Brian McKinley",
+      "updated": "2026-05-27",
+      "_previousArticles": [
+        "overview",
+        "mainpage",
+        "prefix-management",
+        "purchasing-gtins"
+      ],
+      "articles": [
+        "what-is-gs1-assistant-and-what-its-not",
+        "before-you-install-do-you-have-a-gs1-company-prefix",
+        "how-to-install-connect-and-add-your-prefix",
+        "assign-your-first-gtin-to-a-product",
+        "understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean"
+      ]
+    },
+    {
+      "slug": "core-features-setup",
+      "title": "Core Features & Setup",
+      "description": "Step-by-step guides to configure your app.",
+      "author": "Brian McKinley",
+      "updated": "2026-06-27",
+      "_previousArticles": [
+        "configuration",
+        "dashboard",
+        "variantdetail",
+        "download"
+      ],
+      "articles": [
+        "adding-and-managing-your-company-prefix",
+        "how-to-avoid-duplicate-gtin-assignments",
+        "bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once",
+        "downloading-your-gtin-export-file-for-retailers-and-marketplaces",
+        "using-shopify-flow-to-assign-gtins-to-new-products"
+      ]
+    },
+    {
+      "slug": "gs1-compliance",
+      "title": "GS1 Compliance",
+      "description": "Rules and standards for valid GS1 barcodes.",
+      "author": "Brian McKinley",
+      "updated": "2026-07-27",
+      "_previousArticles": [
+        "mo-capabilities"
+      ],
+      "articles": [
+        "upc-vs-ean-vs-gtin",
+        "where-should-i-buy-gtins-from"
+      ]
+    }
+  ],
+  "articleUpdates": {
+    "what-is-gs1-assistant-and-what-its-not": "2026-05-27",
+    "before-you-install-do-you-have-a-gs1-company-prefix": "2026-05-27",
+    "how-to-install-connect-and-add-your-prefix": "2026-05-27",
+    "assign-your-first-gtin-to-a-product": "2026-05-27",
+    "understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean": "2026-05-27",
+    "adding-and-managing-your-company-prefix": "2026-06-27",
+    "how-to-avoid-duplicate-gtin-assignments": "2026-06-27",
+    "bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once": "2026-06-27",
+    "downloading-your-gtin-export-file-for-retailers-and-marketplaces": "2026-06-27",
+    "using-shopify-flow-to-assign-gtins-to-new-products": "2026-06-27",
+    "upc-vs-ean-vs-gtin": "2026-07-27",
+    "where-should-i-buy-gtins-from": "2026-06-27"
+  }
+}

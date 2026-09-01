@@ -6,7 +6,7 @@ This helps prevent duplicate assignments and ensures new GTINs are assigned only
 
 ### Configure assignment ranges and exclusions
 
-![screenshot:Configure assignment ranges and exclusions](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/UppStq3CLP.png)
+![screenshot:Configure assignment ranges and exclusions](Configureassignmentrangesandexclusions.png)
 
 Use assignment ranges and excluded GTINs to prevent GS1 Assistant from reusing codes that are already assigned.
 
@@ -42,7 +42,7 @@ Assignment ranges control which GTIN positions GS1 Assistant can use from your c
 
 Example — Create an assignment range:
 
-![screenshot:Create an assignment range](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/_ktVpxoddM.png)
+![screenshot:Create an assignment range](Createanassignmentrange.png)
 
 ### Using Multiple Ranges
 
@@ -50,7 +50,7 @@ You can create multiple assignment ranges when parts of your GTIN block are alre
 
 Example:
 
-![screenshot:Multiple assignment ranges](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/pznjVbMLs7.png)
+![screenshot:Multiple assignment ranges](Multipleassignmentranges.png)
 
 ### Import GTINs Already in Use
 
@@ -87,7 +87,7 @@ Many merchants use both methods together.
 
 If duplicate GTINs already exist, the dashboard will show them under the Duplicate filter.
 
-![screenshot:Duplicate GTIN filter](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/R_o_Td1igm.png)
+![screenshot:Duplicate GTIN filter](DuplicateGTINfilter.png)
 
 **To fix them:**
 

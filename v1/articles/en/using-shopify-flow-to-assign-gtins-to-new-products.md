@@ -37,7 +37,7 @@ GS1 Assistant supports GTIN assignment through Shopify Flow. To avoid tracking c
 
 ### Example workflow: Assign GTIN when a variant is created
 
-![screenshot:Example Shopify Flow workflow](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/F1FOq-LrPK.png)
+![screenshot:Example Shopify Flow workflow](ExampleShopifyFlowworkflow.png)
 
 This is only one example.
 
@@ -56,7 +56,7 @@ You can either:
 
 The example workflow included in this article assigns a GTIN when a new variant is created and the Barcode field is empty.
 
-![screenshot:Import workflow in Shopify Flow](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/pFVFLzFNf9.png)
+![screenshot:Import workflow in Shopify Flow](ImportworkflowinShopifyFlow.png)
 
 **Step 2: Check the trigger**
 

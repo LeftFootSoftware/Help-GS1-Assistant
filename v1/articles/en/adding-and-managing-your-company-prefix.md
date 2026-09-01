@@ -30,13 +30,13 @@ Some GS1 organizations also support direct API connection. If your prefix is fro
 1. Go to the Company Prefix page
 2. Click Add Prefix
 
-![screenshot:Add Prefix form](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/vcHfn5hBgg.png)
+![screenshot:Add Prefix form](addprefix.png)
 
 **Step 2: Enter your company prefix**
 
 Enter your prefix using numbers only without any spaces or dashes.
 
-![screenshot:Enter company prefix](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/o4m5hT2PV1.png)
+![screenshot:Enter company prefix](companyprefix.png)
 
 For GS1 US users:
 
@@ -48,15 +48,15 @@ Add the leading zero for validation.
 
 You can also enter your company name and if it matches with the name in GS1, it will show in the list.
 
-![screenshot:Enter company name](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/0KSuYHV-Sv.png)
+![screenshot:Enter company name](companyname.png)
 
 **Step 3: Choose your GTIN format**
 
 The format you choose determines which format we save in the Barcode field in Shopify.
 
-![screenshot:Choose GTIN format](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/a9Q-2FI7Hy.png)
+![screenshot:Choose GTIN format](gtinformat.png)
 
-![screenshot:GTIN format options](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/H3mtOOR8sE.png)
+![screenshot:GTIN format options](gtinformatoptions.png)
 
 **Step 4: Configure Your Assignment Range(s)**
 
@@ -64,7 +64,7 @@ Assignment ranges control which GTINs GS1 Assistant can use from your company pr
 
 You can create one or more ranges depending on how you want to allocate GTINs.
 
-![screenshot:Configure assignment ranges](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/diS6gUj9nb.png)
+![screenshot:Configure assignment ranges](ranges.png)
 
 For a new prefix, create a range that starts at 0.
 
@@ -91,7 +91,7 @@ Your prefix will appear in the prefix list with a status indicator.
 
 The status column in the prefix list tells you whether each prefix is validated and how it’s connected.
 
-![screenshot:Prefix status indicators](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/FVXH2ADZZi.png)
+![screenshot:Prefix status indicators](Prefixstatusindicators.png)
 
 #### What to do if the prefix shows “Invalid”?
 
@@ -138,7 +138,7 @@ You can only edit:
 - Start of Range
 - End of Range
 
-![screenshot:Edit prefix ranges](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/7qAStM1IC2.png)
+![screenshot:Edit prefix ranges](Editprefixranges.png)
 
 ### How Assignment Ranges Work
 

@@ -16,7 +16,7 @@ Before running Bulk Assign, confirm these two things:
 
 Go to the **Company Prefix** page.
 
-![screenshot:Company Prefix page](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/1haxAYZMM8.png)
+![screenshot:Company Prefix page](CompanyPrefixpage.png)
 
 > **Note:** If you're using a GS1 company prefix, it should normally show Valid before you assign GTINs. Internal prefixes may not display this status.
 
@@ -31,7 +31,7 @@ If you already used GTINs from this prefix before:
 
 make sure your **Start of Range** is configured correctly.
 
-![screenshot:Start of Range setting](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/fxtfmQFb-M.png)
+![screenshot:Start of Range setting](Rangesetting.png)
 
 Otherwise, duplicate GTINs may be created.
 
@@ -70,7 +70,7 @@ Before assigning GTINs, check the **Available GTINs** count on the dashboard.
 
 Make sure your prefix has enough remaining GTINs for the products you plan to assign.
 
-![screenshot:Available GTIN count](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/nnvgw4PKRX.png)
+![screenshot:Available GTIN count](AvailableGTINcount.png)
 
 If the app runs out of available GTINs:
 
@@ -84,11 +84,11 @@ If the app runs out of available GTINs:
 1. Open the dashboard
 2. Click the **Unassigned card** and click **Select All**
 
-![screenshot:Select all unassigned products](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/v_a1KLxw6T.png)
+![screenshot:Select all unassigned products](unassignedproducts.png)
 
 3. Click **Assign GTIN**
 
-![screenshot:Assign GTIN button](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/ZidCQy3Fsi.png)
+![screenshot:Assign GTIN button](AssignGTIN-button.png)
 
 A **Select Company Prefix** box will open. Confirm the prefix and click **Assign**.
 
@@ -106,15 +106,15 @@ To do this:
 
 1. Click the **Unassigned filter** at the top and select the product(s).
 
-![screenshot:Filter unassigned products](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/0iWwhB1Zky.png)
+![screenshot:Filter unassigned products](Filterunassignedproducts.png)
 
 2. Click **Assign** to assign GTINs to the products.
 
-![screenshot:Assign selected products](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/gz2CqPRMXT.png)
+![screenshot:Assign selected products](Assignselectedproducts.png)
 
 3. A **Select Company prefix** box will open. Now click **Assign**.
 
-![screenshot:Confirm company prefix](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/u331mffn-8.png)
+![screenshot:Confirm company prefix](Confirmcompanyprefix.png)
 
 Now, the products will have GTINs assigned. The assigned variants will show OK status on the dashboard.
 
@@ -129,7 +129,7 @@ Large assignments may take several minutes.
 
 If the dashboard does not update, wait a moment and click **Refresh**.
 
-![screenshot:Refresh dashboard](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/xiV82ODtFJ.png)
+![screenshot:Refresh dashboard](Refreshdashboard.png)
 
 Do not click Assign repeatedly while processing is still running.
 

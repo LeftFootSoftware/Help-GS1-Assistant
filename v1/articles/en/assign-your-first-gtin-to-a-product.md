@@ -18,7 +18,7 @@ To see only products without GTINs:
 1. Click the **Unassigned** filter.
 2. Search for a product name if needed.
 
-![screenshot:Find an unassigned product variant](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/LyR4c-hfme.png)
+![screenshot:Find an unassigned product variant](unassignedproductvariant.png)
 
 ### Step 2: Assign a GTIN
 
@@ -26,18 +26,18 @@ The app picks the next available GTIN from your prefix block, assigns it to the 
 
 1. Find the variant in the list. On the right side of its row, click **Assign GTIN**.
 
-![screenshot:Assign GTIN button](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/4f9emheqc4.png)
+![screenshot:Assign GTIN button](AssignGTINbutton.png)
 
 2. The row updates immediately. The status changes from **Unassigned** to **OK**, and the GTIN number appears in the barcode column.
 
-![screenshot:Assigned GTIN with OK status](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/a4T8DdxHl2.png)
+![screenshot:Assigned GTIN with OK status](AssignedGTINwithOKstatus.png)
 
 In most cases:
 
 - Wait a few minutes.
 - Click **Start Scan** to refresh if needed.
 
-![screenshot:Start Scan button](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/HgLFgPl3RO.png)
+![screenshot:Start Scan button](StartScanbutton.png)
 
 The status should update automatically.
 
@@ -91,7 +91,7 @@ Useful for troubleshooting or audits.
 
 1. Click **Unassign** in the GTIN Status section.
 
-![screenshot:Unassign a GTIN](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/pi7i7KTTZe.png)
+![screenshot:Unassign a GTIN](UnassignGTIN.png)
 
 The GTIN can be returned to your available range and reused later by updating the range in your company prefix configuration. No GTINs are permanently lost.
 

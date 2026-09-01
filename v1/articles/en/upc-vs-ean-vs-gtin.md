@@ -34,7 +34,7 @@ In practice:
 
 ### GTIN format
 
-![screenshot:GTIN format comparison](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/3nwUgCl20i.png)
+![screenshot:GTIN format comparison](GTINformatcomparison.png)
 
 > **Note:** ISBNs used for books and publications are represented as GTIN-13 values using ranges reserved for the publishing industry. ISBNs are assigned through the ISBN system rather than through GS1 Member Organizations. GS1 Assistant does not manage or assign ISBNs.
 
@@ -89,11 +89,11 @@ In Shopify, GTINs are stored in the **Barcode field.**
 
 1. To view, go to the **Products** page in Shopify
 
-![screenshot:Shopify Products page](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/jt627qu5AC.png)
+![screenshot:Shopify Products page](ShopifyProductspage.png)
 
 2. Scroll down to the **Inventory** section, and you will see the **Barcode** field.
 
-![screenshot:Shopify Barcode field](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/Fcwqpn55PH.png)
+![screenshot:Shopify Barcode field](ShopifyBarcodefield.png)
 
 Each product variant should have its own GTIN.
 

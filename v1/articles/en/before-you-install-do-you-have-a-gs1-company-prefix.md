@@ -16,7 +16,7 @@ Every GTIN you create starts with this prefix. Marketplaces like Amazon, Google 
 
 In the example below, if your prefix is `506502397`, the product number is `800`, and the check digit is `7`, the GTIN will look like `5065023978007`.
 
-![screenshot:GS1 company prefix example](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/MHWcx5c57K.png)
+![screenshot:GS1 company prefix example](prefixexample.png)
 
 ### How many GTINs can you create?
 
@@ -32,7 +32,7 @@ If you’re unsure where to start, a 100 GTIN prefix is usually enough for many 
 
 Here’s an example of how prefix length determines the number of GTINs available:
 
-![screenshot:Prefix length and available GTINs](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/zqPEzN1EqL.png)
+![screenshot:Prefix length and available GTINs](availableGTINs.png)
 
 > **Important: GS1 Assistant does not provide prefixes**
 >
@@ -42,7 +42,7 @@ Here’s an example of how prefix length determines the number of GTINs availabl
 >
 > The only exception is GS1 US customers, who can purchase a prefix through the app directly from GS1 US.
 
-![screenshot:Purchase a GS1 US prefix](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/UrvtPOFpZT.png)
+![screenshot:Purchase a GS1 US prefix](GS1USprefix.png)
 
 ### How to check if you already have a prefix
 
@@ -90,7 +90,7 @@ You must purchase a prefix from an official GS1 organization.
 
 Your GTINs will still work globally regardless of which GS1 organization you purchase from.
 
-![screenshot:Official GS1 organizations](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/b3wpv6sVYB.png)
+![screenshot:Official GS1 organizations](GS1organizations.png)
 
 ### UPC vs EAN: What should you know?
 

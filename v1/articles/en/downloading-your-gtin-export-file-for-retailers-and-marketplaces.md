@@ -31,13 +31,13 @@ The export file is mainly used for two situations:
 1. Open the dashboard and select the variants you want to export
 2. Click **Download Import File** in the action bar at the top right of the variant list.
 
-![screenshot:Download Import File button](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/-PdJM1eUlB.png)
+![screenshot:Download Import File button](DownloadImportFilebutton.png)
 
 It’s recommended to use the: **OK / Valid filter**.
 
 3. From the **Download box**, select your **GS1 Member Organization** from the dropdown for example, GS1 UK, GS1 US, or GS1 Germany.
 
-![screenshot:Select GS1 Member Organization](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/4WT2QDRs7y.png)
+![screenshot:Select GS1 Member Organization](SelectGS1MemberOrganization.png)
 
 #### Additional setup for GS1 UK
 
@@ -70,7 +70,7 @@ The export file downloads to your computer.
 
 ### Where to upload the file
 
-![screenshot:Where to upload the export file](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/NKAVCja842.png)
+![screenshot:Where to upload the export file](Wheretouploadtheexportfile.png)
 
 ### Sharing the file with retailers or distributors
 

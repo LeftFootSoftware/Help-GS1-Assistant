@@ -8,9 +8,9 @@ GS1 Assistant uses different statuses to show:
 
 This guide explains what each status means and what action to take.
 
-![screenshot:GTIN status overview](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/6_guMZLZzG.png)
+![screenshot:GTIN status overview](GTINstatusoverview.png)
 
-![screenshot:GTIN status details](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/VkYsx3ugQo.png)
+![screenshot:GTIN status details](GTINstatusdetails.png)
 
 ### Note about Invalid
 
@@ -37,9 +37,9 @@ In most cases, it does not mean there is a problem with your GS1 account.
 
 These statuses appear at the top of the dashboard and describe the state of your GS1 company prefix block. It says how many GTINs are available and how many are at various stages of processing.
 
-![screenshot:Barcode activity statuses](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/YaKfTdFWHi.png)
+![screenshot:Barcode activity statuses](Barcodeactivitystatuses.png)
 
-![screenshot:Barcode activity status details](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/JUCfXqncwH.png)
+![screenshot:Barcode activity status details](Barcodeactivitystatusdetails.png)
 
 > **Note about Pending Statuses:**
 >
@@ -49,11 +49,11 @@ These statuses appear at the top of the dashboard and describe the state of your
 
 These statuses appear next to each product variant and describe the state of the GTIN assigned to it.
 
-![screenshot:Product GTIN statuses](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/nJadEurfgu.png)
+![screenshot:Product GTIN statuses](ProductGTINstatuses.png)
 
 ### What does GTIN Status ‘OK’ and Verified mean?
 
-![screenshot:OK and Verified GTIN statuses](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/Zk1NMRUG8X.png)
+![screenshot:OK and Verified GTIN statuses](OKandVerifiedGTINstatuses.png)
 
 ### Do I need ‘Verified by GS1’ to sell on Amazon?
 

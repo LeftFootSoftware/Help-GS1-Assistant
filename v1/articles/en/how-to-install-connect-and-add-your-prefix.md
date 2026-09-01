@@ -25,7 +25,7 @@ The app will immediately scan your store and load your product variants into the
 
 You do not need to add a prefix before this happens.
 
-![screenshot:GS1 Assistant after installation](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/6RHZ_607hC.png)
+![screenshot:GS1 Assistant after installation](GS1Assistantafterinstallation.png)
 
 ### Step 2: Add your GS1 company prefix
 
@@ -47,15 +47,15 @@ Works for all GS1 organizations, including:
 
 1. Visit the **Company Prefix** page and click **Add Prefix**.
 
-![screenshot:Add Prefix button](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/biZCeHj62A.png)
+![screenshot:Add Prefix button](AddPrefixbutton.png)
 
 2. Enter your company prefix and type the number without spaces, dashes, or other characters.
 
-![screenshot:Enter company prefix](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/f2LG3nPcHq.png)
+![screenshot:Enter company prefix](Entercompanyprefix.png)
 
 Or you can also add your company name instead of the prefix.
 
-![screenshot:Enter company name](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/L5W8z4HtQg.png)
+![screenshot:Enter company name](Entercompanyname.png)
 
 > **Note: GS1 US users**
 >
@@ -69,19 +69,19 @@ Or you can also add your company name instead of the prefix.
 
 3. Set your **GTIN format**. This determines the barcode length.
 
-![screenshot:Select GTIN format](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/ixWJsQnDDP.png)
+![screenshot:Select GTIN format](SelectGTINformat.png)
 
-![screenshot:GTIN format options](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/NWoUaCSeBU.png)
+![screenshot:GTIN format options](gtinformatoptions.png)
 
 4. Set the **Start of Range**. Enter **0** if this is a brand new prefix. If you’ve already manually assigned some GTINs from this prefix, enter the first unused position to avoid conflicts.
 
-![screenshot:Set start of range](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/f-hX6oLoWa.png)
+![screenshot:Set start of range](Setstartofrange.png)
 
 5. Click **Save**. Your prefix will appear in the prefix list with a status indicator.
 
 Here’s what the status colors mean:
 
-![screenshot:Prefix status colors](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/j7xR_IWBiS.png)
+![screenshot:Prefix status colors](Prefixstatuscolors.png)
 
 If your prefix was purchased recently, validation may take up to 24 hours.
 
@@ -110,7 +110,7 @@ This simply means the product does not yet have a barcode assigned.
 
 If some variants already had barcodes before you installed the app, the dashboard shows their validation status:
 
-![screenshot:Dashboard validation statuses](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/NbUgDjxXm6.png)
+![screenshot:Dashboard validation statuses](Dashboardvalidationstatuses.png)
 
 If you see Invalid or Duplicate GTIN values, those barcodes already existed in your store before installing the app.
 
@@ -123,7 +123,7 @@ If your product list looks incomplete:
 1. Wait a few moments.
 2. Click **Start Scan** to refresh.
 
-![screenshot:Start Scan button](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/Fyvk5CCpmz.png)
+![screenshot:Start Scan button](StartScanbutton.png)
 
 Large stores may take longer to sync.
 

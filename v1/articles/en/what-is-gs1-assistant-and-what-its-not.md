@@ -22,7 +22,7 @@ Instead of manually updating barcode fields yourself:
 
 - Select your products and click **Assign GTIN**
 
-![screenshot:Assign GTIN to selected products](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/iLzZQsV6lq.png)
+![screenshot:Assign GTIN to selected products](AssignGTINtoselectedproducts.png)
 
 GS1 Assistant adds the next available GTINs from your prefix.
 

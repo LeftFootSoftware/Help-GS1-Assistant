@@ -20,7 +20,7 @@ Each Member Organization is responsible for managing its own:
 - Application process
 - Product and data services
 
-![screenshot:GS1 Member Organizations](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/EqTB7SLJAq.png)
+![screenshot:GS1 Member Organizations](GS1MemberOrganizations.png)
 
 ### Who Can Purchase GTINs?
 
@@ -71,7 +71,7 @@ Depending on the GS1 Member Organization, these integrations may allow you to sy
 
 Available integration capabilities vary by GS1 Member Organization and may change over time.
 
-![screenshot:GS1 Assistant integrations](https://tawk.link/69de4445e0ef771c3622983b/kb/attachments/ANixet5NfH.png)
+![screenshot:GS1 Assistant integrations](GS1Assistantintegrations.png)
 
 ### Are GTINs Purchased Outside My Country Still Valid?
 

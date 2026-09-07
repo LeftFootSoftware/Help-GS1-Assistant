@@ -3,6 +3,7 @@
     {
       "slug": "getting-started",
       "title": "Getting Started",
+      "icon": "getting-started.svg",
       "description": "The basics to get up and running quickly.",
       "author": "Brian McKinley",
       "updated": "2026-05-27",
@@ -23,6 +24,7 @@
     {
       "slug": "core-features-setup",
       "title": "Core Features & Setup",
+      "icon": "core-features-setup.svg",
       "description": "Step-by-step guides to configure your app.",
       "author": "Brian McKinley",
       "updated": "2026-06-27",
@@ -43,6 +45,7 @@
     {
       "slug": "compliance",
       "title": "GS1 Compliance",
+      "icon": "compliance.svg",
       "description": "Rules and standards for valid GS1 barcodes.",
       "author": "Brian McKinley",
       "updated": "2026-07-27",

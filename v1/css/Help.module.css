@@ -5,16 +5,20 @@
   margin: 0 auto;
   padding: 16px 20px 48px;
   box-sizing: border-box;
+  flex: 1;
 }
 
 .homeShell {
   width: 100%;
   min-height: 100svh;
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .homePage {
   width: 100%;
+  flex: 1;
 }
 
 .hero {
@@ -732,6 +736,21 @@
   padding: 32px 8px;
   text-align: center;
   color: #6b7280;
+}
+
+.footer {
+  margin-top: auto;
+  border-top: 1px solid #e5e7eb;
+  background: #f8fafc;
+  color: #6b7280;
+  text-align: center;
+  padding: 14px 20px;
+}
+
+.footerVersion {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
 }
 
 /* ---- Markdown / readability ---- */

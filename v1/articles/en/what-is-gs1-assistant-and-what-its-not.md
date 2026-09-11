@@ -1,4 +1,4 @@
-## What Is GS1 Assistant? (And What It's Not) - Test
+## What Is GS1 Assistant? (And What It's Not) - Test 1
 
 In this article, you will learn what GS1 Assistant does, what it doesn’t do, and what you need before you start using it.
 

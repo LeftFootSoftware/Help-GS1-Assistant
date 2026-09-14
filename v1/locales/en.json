@@ -19,7 +19,8 @@
         "before-you-install-do-you-have-a-gs1-company-prefix",
         "how-to-install-connect-and-add-your-prefix",
         "assign-your-first-gtin-to-a-product",
-        "understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean"
+        "understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean",
+        "mytest-20260914"
       ]
     },
     {
@@ -60,6 +61,7 @@
     }
   ],
   "articleUpdates": {
+    "mytest-20260914":""
     "what-is-gs1-assistant-and-what-its-not": "2026-08-27",
     "before-you-install-do-you-have-a-gs1-company-prefix": "2026-05-27",
     "how-to-install-connect-and-add-your-prefix": "2026-05-27",

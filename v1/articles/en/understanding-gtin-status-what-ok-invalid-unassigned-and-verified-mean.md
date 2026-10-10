@@ -1,10 +1,6 @@
 ## Understanding GTIN Status: What OK, Invalid, Unassigned, and Verified Mean
 
-GS1 Assistant uses different statuses to show:
-
-- whether a GTIN is assigned
-- whether it’s valid
-- whether there are issues that need attention
+GS1 Assistant uses different statuses to show whether a GTIN is assigned, whether it’s valid, and whether there are issues that need attention.
 
 This guide explains what each status means and what action to take.
 

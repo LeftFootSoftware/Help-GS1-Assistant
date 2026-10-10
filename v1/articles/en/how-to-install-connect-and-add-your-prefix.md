@@ -1,11 +1,6 @@
 ## How to Install, Connect, and Add Your Prefix
 
-This guide walks you through:
-
-- Installing GS1 Assistant
-- Adding your GS1 company prefix
-- Reviewing your product dashboard
-- Getting ready to assign GTINs
+This guide walks you through installing GS1 Assistant, adding your GS1 company prefix, reviewing your product dashboard, and getting ready to assign GTINs.
 
 ### Before you start
 

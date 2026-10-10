@@ -1,11 +1,6 @@
 ## Assign Your First GTIN to a Product
 
-In this article, you’ll learn how to:
-
-- Find a product variant
-- Assign a GTIN
-- Confirm the assignment worked
-- Understand the GTIN status
+In this article, you’ll learn how to find a product variant, assign a GTIN, confirm the assignment worked, and understand the GTIN status.
 
 ### Step 1: Find the variant you want to assign
 

@@ -1,11 +1,6 @@
 ## Downloading Your GTIN Export File for Retailers and Marketplaces
 
-This guide explains:
-
-- when you need an export file
-- when you do not need one
-- how to download it
-- where to upload it
+This guide explains when you need an export file, when you do not need one, how to download it, and where to upload it.
 
 ### Most Shopify merchants do not need the export file
 

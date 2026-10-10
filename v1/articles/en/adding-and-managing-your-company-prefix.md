@@ -1,6 +1,6 @@
 ## Adding and Managing Your Company Prefix
 
-In this article, you'll learn how to add a GS1 company prefix, choose the correct GTIN format, configure your range settings, edit an existing prefix, and fix common prefix validation issues.
+In this article, you'll learn how to add a company prefix, choose the GTIN format, set your ranges, edit a prefix, and fix common validation issues.
 
 ### Add a new GS1 Company prefix
 

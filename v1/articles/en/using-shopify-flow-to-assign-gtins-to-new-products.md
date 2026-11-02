@@ -2,7 +2,7 @@
 
 Shopify Flow allows you to build custom automation workflows that include GTIN assignment.
 
-Unlike Auto Assign, which runs on every new variant automatically, Shopify Flow gives you complete control over when GTINs are assigned.
+This is how Auto Assign works in GS1 Assistant: Shopify Flow runs the assignment, so you control when GTINs are assigned.
 
 For example, you can:
 
@@ -14,17 +14,11 @@ For example, you can:
 
 GS1 Assistant provides an Assign GTIN action that can be added to any Shopify Flow workflow.
 
-### Pro plan required
-
-Shopify Flow GTIN assignment is available on the: **Pro plan**
-
-If you are using Free/Basic, you can still assign GTINs manually or through Bulk Assign.
-
 ### Before you start
 
 Make sure you have:
 
-- GS1 Assistant installed on the Pro plan
+- GS1 Assistant installed
 - A valid GS1 company prefix
 - Available GTINs remaining in your block
 - [Shopify Flow](https://apps.shopify.com/flow) installed

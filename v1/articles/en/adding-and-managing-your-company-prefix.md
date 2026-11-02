@@ -15,7 +15,7 @@ Here you’ll see:
 
 Most merchants add their prefix manually.
 
-Some GS1 organizations also support direct API connection. If your prefix is from a region with a supported API (such as GS1 Germany, GS1 Switzerland, GS1 Netherlands, or GS1 Brazil), you can connect with it via API.
+Some GS1 organizations also support direct API connection. If your prefix is from a region with a supported API (such as GS1 Germany, GS1 Sweden, GS1 Netherlands, or GS1 Brazil), you can connect with it via API.
 
 #### Option A: Add your prefix manually
 
@@ -110,11 +110,11 @@ If the issue continues, contact support.
 Some GS1 organizations support direct API connection, including:
 
 - GS1 Germany
-- GS1 Switzerland
+- GS1 Sweden
 - GS1 Netherlands
 - GS1 Brazil
 
-If available, the connection option appears inside the prefix settings.
+If available, a **Connect** button appears next to the prefix on the **Company Prefixes** page.
 
 API connection is optional. Manual setup provides the same GTIN assignment functionality. For supported GS1 organizations, API connection may require additional verification to confirm ownership of the company prefix.
 

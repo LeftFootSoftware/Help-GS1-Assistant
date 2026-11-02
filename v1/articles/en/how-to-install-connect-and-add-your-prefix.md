@@ -82,16 +82,16 @@ If your prefix was purchased recently, validation may take up to 24 hours.
 
 If it still appears invalid after 48 hours, contact support.
 
-#### Option B: Connect via API (GS1 Germany, Switzerland, Netherlands, Brazil)
+#### Option B: Connect via API (GS1 Germany, Sweden, Netherlands, Brazil)
 
 Available for some GS1 organizations, including:
 
 - GS1 Germany
-- GS1 Switzerland
+- GS1 Sweden
 - GS1 Netherlands
 - GS1 Brazil
 
-You can connect your GS1 account directly from Settings.
+To connect, open **Company Prefixes**, click **Connect** next to your prefix, and enter your GS1 access token.
 
 If you don’t see the connection option, use manual setup instead.
 

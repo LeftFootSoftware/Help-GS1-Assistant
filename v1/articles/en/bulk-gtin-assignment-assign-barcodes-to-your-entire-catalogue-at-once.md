@@ -135,7 +135,7 @@ Do not click Assign repeatedly while processing is still running.
 
 ### Automatically assign GTINs to new products
 
-After your existing catalogue is assigned, you can set up Auto Assign. Auto Assign runs through Shopify Flow.
+After your existing catalogue is assigned, you can set up Auto Assign. Auto Assign runs through Shopify Flow and requires the Automation plan.
 
 This automatically assigns GTINs to new Shopify variants as they are created.
 

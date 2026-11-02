@@ -14,11 +14,17 @@ For example, you can:
 
 GS1 Assistant provides an Assign GTIN action that can be added to any Shopify Flow workflow.
 
+### Automation plan required
+
+Auto Assign and all GS1 Assistant Shopify Flow actions work on the **Automation plan**.
+
+On other plans, you can still assign GTINs manually or through Bulk Assign.
+
 ### Before you start
 
 Make sure you have:
 
-- GS1 Assistant installed
+- GS1 Assistant installed on the Automation plan
 - A valid GS1 company prefix
 - Available GTINs remaining in your block
 - [Shopify Flow](https://apps.shopify.com/flow) installed

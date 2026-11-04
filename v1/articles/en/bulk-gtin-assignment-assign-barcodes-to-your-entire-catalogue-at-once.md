@@ -36,7 +36,7 @@ Bulk Assign gives every variant you select the next free GTIN from your company 
 
 GS1 Assistant takes the next free GTINs from the prefix, one per variant, and writes each one to the variant's barcode in Shopify. Click **Start Scan** to update the counts. The variants then appear under **Valid GTINs** with their new number in the **GTIN** column.
 
-Shopify limits how fast apps can update products, so a large catalog takes time. Expect about 2,000 variants an hour. Do not click **Assign GTIN** again while a run is in progress.
+Shopify limits how fast apps can update products, so a large catalog takes time. On one large store, assignment ran at about 2,000 variants an hour. Do not click **Assign GTIN** again while a run is in progress.
 
 If the prefix runs out of GTINs, assignment stops. The variants that did not get one stay under **Needs GTIN**.
 

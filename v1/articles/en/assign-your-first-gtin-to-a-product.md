@@ -23,7 +23,9 @@ Assign a GTIN from your company prefix to one product variant, check that it rea
 
 ![screenshot:The Select Company Prefix window with prefix 5065023978, its Prefix Details, and the Assign button (5) outlined.](QuickStartSelectPrefix.png)
 
-GS1 Assistant takes the next free GTIN from your prefix and writes it to the variant's barcode in Shopify.
+GS1 Assistant takes the next free GTIN from your prefix and writes it to the variant's barcode in Shopify. The row shows the new GTIN straight away, with a **Scan to Refresh** banner. The tab counts change after the next scan.
+
+A row without a barcode also has an **Assign Barcode** button. It opens the same window for that one variant.
 
 > **Product not in the list?** The **Status** filter shows active products by default. To see a draft product, set **Status** to **Draft** after you click the tab, because clicking a tab resets the filter.
 

@@ -18,22 +18,22 @@ Download a barcode image for each variant that has a GTIN, in SVG or PNG format,
 
 The window closes and your browser downloads a ZIP file. GS1 Assistant shows no message. Look for the file in your browser's downloads.
 
-To download the barcode of one variant, click the eye icon on its row. The variant page shows the barcode with a **Download Barcode** button at the top.
+To download the barcode of one variant, click the eye icon on its row, then click **Download Barcode** at the top of the variant page. No window opens: your browser saves an SVG file named with the GTIN, for example 5065023978571.svg.
 
 ### What the file contains
 
-- **The ZIP file** is named with the format, your store and the date, for example barcodes_png_yourstore_2026-11-05.zip.
-- **Each image** is named with the product, the variant and the GTIN, for example Linen_Shirt_-_Blue_S_05065023978519.png.
-- **The PNG image** shows the bars with the GTIN digits below them, on a white background, at 448 × 244 pixels.
+- **The ZIP file** is named with the format, your store and the date, for example barcodes_svg_yourstore_2026-11-05.zip or barcodes_png_yourstore_2026-11-05.zip.
+- **Each image** is named with the product, the variant and the GTIN, for example Linen_Shirt_-_S_5065023978571.png.
+- **The PNG image** shows the bars with the GTIN digits below them, on a white background, about 430 to 450 pixels wide and 244 pixels high.
 
-![screenshot:A downloaded PNG barcode image: black bars with the number 05065023978519 below them, on a white background.](BarcodePNGExample.png)
+![screenshot:A downloaded PNG barcode image for an EAN prefix: an EAN-13 barcode with longer bars at the start, middle and end, and the digits 5 065023 978571 below them, on a white background.](BarcodePNGExample.png)
 
 Choose **SVG Format** when you print large or resize the barcode: an SVG image stays sharp at any size. A PNG image has a fixed number of pixels and blurs when you enlarge it.
 
 ### Before you print
 
-- **Check the barcode type.** In our test, the PNG image was a Code 128 barcode of the 14-digit GTIN. Shop checkouts usually scan EAN-13 or UPC-A barcodes. Ask your retailer or your printer which barcode type they need.
-- **Leave white space at the sides.** The image has no white margin at its left and right edges. Keep a clear space on both sides when you place it on your design.
+- **Check the barcode type.** It depends on the **GTIN Type** of the prefix the GTIN came from: **EAN** gives a 13-digit EAN-13 barcode, and **GTIN** gives a 14-digit Code 128 barcode. Shop checkouts usually scan EAN-13 or UPC-A barcodes, so a Code 128 barcode may not suit packaging for shops. To get EAN-13, see [Change the GTIN type](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/). Ask your retailer or your printer which barcode type they need. We tested this with a GS1 UK prefix.
+- **Leave white space at the sides.** The image has little or no white margin at its edges. Keep a clear space on both sides when you place it on your design.
 - **Test a print.** Print one barcode and scan it before you print many.
 
 ### Troubleshooting

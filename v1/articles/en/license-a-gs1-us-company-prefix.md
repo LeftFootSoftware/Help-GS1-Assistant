@@ -18,7 +18,7 @@ If you sell in the US and have no GS1 company prefix yet, license one from GS1 U
 
 ![screenshot:The License Company Prefix window. The five packages (4), from 1-10 for $250.00 to 1-100,000 for $10,500.00, and the Continue button (5) are outlined. Find My GS1 Member Organization sits next to Continue.](LicensePrefixWindow.png)
 
-6. Follow the steps that open to complete your purchase.
+6. Fill in **Contact Information** and **Company Information**, then click **Continue to Payment**.
 
 The prices above are as shown in the app in November 2026. GS1 US sets the terms of the licence, including any yearly fee. Check them before you pay.
 
@@ -32,6 +32,7 @@ Then assign GTINs to your variants. See [Assign GTINs to Many Variants at Once](
 
 ### Tips
 
+- **Need only a few GTINs?** When you click **Assign Barcode** on a variant, the **Company Prefix** list also offers **Get UPC Codes** ("License individual UPC codes"). GS1 Assistant assigns only from a prefix, so you paste individually licensed codes into the Shopify barcode field yourself.
 - **Already have a GS1 US account?** Buying a second prefix here can open a separate GS1 US account. To combine the two, ask GS1 US about a prefix transfer.
 - **Choose a package with room to grow.** Larger packages cost less per GTIN: 1-10 is $25.00 per GTIN, 1-100 is $7.50.
 

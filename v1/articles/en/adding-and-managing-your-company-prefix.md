@@ -26,7 +26,7 @@ The **Prefixes** table lists each prefix with its **Size**, **Remaining** GTINs,
 
 ### Change the GTIN type
 
-The **GTIN Type** sets the format GS1 Assistant writes to the Shopify barcode field. The options are **EAN** and **GTIN**. With **GTIN**, prefix 5065023978 gives 14-digit barcodes such as 05065023978496. There is no UPC type: for a GS1 US or GS1 Canada prefix, **EAN** writes your UPC with a 0 in front (13 digits) and **GTIN** with 00 in front (14 digits). Both are the same number as the 12-digit UPC.
+The **GTIN Type** sets the format GS1 Assistant writes to the Shopify barcode field. The options are **EAN** and **GTIN**. With **GTIN**, prefix 5065023978 gives 14-digit barcodes such as 05065023978496. There is no UPC type: for a GS1 US or GS1 Canada prefix, **EAN** writes your UPC with a 0 in front (13 digits) and **GTIN** with 00 in front (14 digits). Both are the same number as the 12-digit UPC. The type also sets the barcode image: **EAN** gives an EAN-13 barcode, and **GTIN** gives a Code 128 barcode. For the download steps, see the article Download Barcode Images for Your GTINs.
 
 1. In the GS1 Assistant menu, click **Settings**.
 2. In the **Prefixes** table, scroll right and click the pencil icon on the prefix's row. The **Company Prefixes** page opens.

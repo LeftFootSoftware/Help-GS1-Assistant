@@ -54,7 +54,7 @@ The **Duplicate GTINs** tab in **GTIN Manager** lists every GTIN that more than 
 ![screenshot:A Duplicate GTINs row with a red bar on the left: 2 variants, Duplicates, GTIN 05065023978496, GS1 UK.](StatusDuplicateRow.png)
 
 1. Set **Start** or import an **Exclude** list first (see above), so the replacement GTINs do not collide again.
-2. On the **Duplicate GTINs** tab, click **[number] variants** in the row to see which variants share the GTIN.
+2. On the **Duplicate GTINs** tab, click **[number] variants** in the row. A small window lists the variants that share the GTIN, each with an eye icon that opens its page.
 3. Decide which variant keeps the GTIN. If the GTIN is already on a marketplace listing or printed packaging, that product keeps it.
 4. Click the **All** tab, search for each other variant's product, tick the variant, click **Unassign Barcode**, then click **Unassign 1 GTINs**.
 

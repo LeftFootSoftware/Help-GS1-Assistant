@@ -28,9 +28,9 @@ On **Essential** and **Growth**, you pay for the GTINs you assign each month, on
 - **You add new products often:** **Automation** gives each new variant a GTIN through Shopify Flow. See [Assign GTINs to New Products Automatically with Shopify Flow](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/).
 - **You assign many GTINs each month:** compare the usage charges on Essential or Growth with the fixed price of Automation.
 
-### Check your current plan
+### Check or change your plan
 
-The footer at the bottom of each GS1 Assistant page shows your app version and plan, for example "Plan: Pro". Stores that subscribed earlier can see an older plan name.
+Open **GS1 Assistant**. The **Dashboard** shows your plan under **Plan Type**, with a **Change Plan** button. The footer at the bottom of each GS1 Assistant page also shows your plan, for example "Plan: Pro". Stores that subscribed earlier can see an older plan name.
 
 ### Related articles
 

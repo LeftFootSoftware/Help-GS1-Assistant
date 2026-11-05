@@ -8,6 +8,7 @@ Find out why a count in GS1 Assistant differs from what you expect, and how to c
 |---|---|---|
 | **Size** (or **Block Size**) | **Settings** > **Prefixes**, and the prefix page | All the numbers your prefix holds, for example 100 |
 | **Remaining** | Same places | The free numbers inside your **Ranges** (from **Start** to **End**) that GS1 Assistant can still assign |
+| **Available GTINs** | **Dashboard** | The **Remaining** numbers of all your prefixes added together |
 | Tab counts: **All**, **Valid GTINs**, **Needs GTIN**, **Duplicate GTINs**, **Not a GTIN** | **Dashboard**, **Settings** and **GTIN Manager** | Variants in your Shopify store, from the last scan |
 
 ![screenshot:A row of the Prefixes table: prefix 5065023978 with Size 100 and Remaining 39 outlined, GS1 UK, Left Foot Software.](CountsPrefixRow.png)

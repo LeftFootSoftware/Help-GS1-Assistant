@@ -89,6 +89,17 @@
         "upc-vs-ean-vs-gtin",
         "where-should-i-buy-gtins-from"
       ]
+    },
+    {
+      "slug": "plans-and-account",
+      "title": "Plans and account",
+      "icon": "getting-started.svg",
+      "description": "What each plan includes and how usage charges work.",
+      "author": "Brian McKinley",
+      "updated": "2026-11-05",
+      "articles": [
+        "which-plan-do-you-need"
+      ]
     }
   ],
   "articleUpdates": {
@@ -105,6 +116,7 @@
     "upc-vs-ean-vs-gtin": "2026-11-05",
     "where-should-i-buy-gtins-from": "2026-11-05",
     "connect-your-gs1-account-for-auto-sync": "2026-11-05",
-    "why-do-my-gtin-counts-look-wrong": "2026-11-05"
+    "why-do-my-gtin-counts-look-wrong": "2026-11-05",
+    "which-plan-do-you-need": "2026-11-05"
   }
 }

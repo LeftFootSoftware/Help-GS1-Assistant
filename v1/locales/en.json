@@ -65,6 +65,17 @@
       ]
     },
     {
+      "slug": "fix-a-problem",
+      "title": "Fix a problem",
+      "icon": "core-features-setup.svg",
+      "description": "Counts that look wrong, prefixes that are not valid, and files GS1 rejects.",
+      "author": "Brian McKinley",
+      "updated": "2026-11-05",
+      "articles": [
+        "why-do-my-gtin-counts-look-wrong"
+      ]
+    },
+    {
       "slug": "compliance",
       "title": "GS1 basics",
       "icon": "compliance.svg",
@@ -93,6 +104,7 @@
     "using-shopify-flow-to-assign-gtins-to-new-products": "2026-11-05",
     "upc-vs-ean-vs-gtin": "2026-11-05",
     "where-should-i-buy-gtins-from": "2026-11-05",
-    "connect-your-gs1-account-for-auto-sync": "2026-11-05"
+    "connect-your-gs1-account-for-auto-sync": "2026-11-05",
+    "why-do-my-gtin-counts-look-wrong": "2026-11-05"
   }
 }

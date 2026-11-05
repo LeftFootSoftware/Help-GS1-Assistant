@@ -61,7 +61,8 @@
       "updated": "2026-11-04",
       "articles": [
         "connect-your-gs1-account-for-auto-sync",
-        "downloading-your-gtin-export-file-for-retailers-and-marketplaces"
+        "downloading-your-gtin-export-file-for-retailers-and-marketplaces",
+        "set-your-gs1-defaults"
       ]
     },
     {
@@ -119,6 +120,7 @@
     "connect-your-gs1-account-for-auto-sync": "2026-11-05",
     "why-do-my-gtin-counts-look-wrong": "2026-11-05",
     "which-plan-do-you-need": "2026-11-05",
-    "gs1-rejected-my-import-file": "2026-11-05"
+    "gs1-rejected-my-import-file": "2026-11-05",
+    "set-your-gs1-defaults": "2026-11-05"
   }
 }

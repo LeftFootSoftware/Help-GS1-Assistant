@@ -1,127 +1,55 @@
 ## Where Should I Buy GTINs From?
 
-If you're launching a new product, you'll need to decide where to purchase your GTINs.
+Buy your GTINs from an official GS1 organization, usually the one in the country where your business is based or where you sell most. This article covers what differs between GS1 organizations, so you can choose.
 
-Many businesses automatically purchase GTINs from the GS1 Member Organization in their own country. However, pricing, barcode formats, eligibility requirements, and integration capabilities can vary significantly between GS1 organizations.
+### How GS1 is organized
 
-Here are a few factors to consider before you choose where to purchase your GTINs.
+GS1 is a global standards body made up of national and regional member organizations. You buy GTINs from a member organization, not from GS1 Global. Each member organization sets its own:
 
-### How GS1 Is Organized
+- prices and renewal rules
+- membership requirements and application process
+- product data services
 
-GS1 is a global standards organization made up of independent national and regional Member Organizations around the world.
+![screenshot:Diagram: GS1 Global at the top, with member organizations such as GS1 US, GS1 Germany and GS1 UK below it.](GS1MemberOrganizations.png)
 
-When you purchase GTINs, you do not purchase them directly from GS1 Global. Instead, you purchase them from a GS1 Member Organization.
+Find the member organization for any country on [GS1's list of member organizations](https://www.gs1.org/contact/overview).
 
-Each Member Organization is responsible for managing its own:
+### What differs between GS1 organizations
 
-- Pricing
-- Membership requirements
-- Renewal policies
-- Application process
-- Product and data services
+- **Who can apply.** Some organizations serve only businesses in their own country. Some ask for a local tax, VAT or business registration number. Check the organization's current requirements before you apply.
+- **Price.** Prices differ a lot between organizations. Compare the published price for the number of GTINs you need, including the yearly renewal.
+- **Barcode format.** GS1 US and GS1 Canada issue 12-digit UPCs. Most other organizations issue 13-digit EANs. Most marketplaces and retailers accept both, but some older North American retail systems still expect UPCs. See [UPC vs EAN vs GTIN](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/).
+- **What GS1 Assistant can do with them.** GS1 Assistant assigns GTINs from any official GS1 prefix. How your products reach GS1 depends on the organization:
 
-![screenshot:GS1 Member Organizations](GS1MemberOrganizations.png)
+| GS1 organization | How products reach GS1 from GS1 Assistant |
+|---|---|
+| GS1 Germany, Netherlands, Sweden, Brazil | Auto Sync (**Automation** plan) |
+| GS1 UK, US, Canada, France, Norway, Romania | An import file you upload to your GS1 portal |
+| Any other organization | You add products in your GS1 portal yourself |
 
-### Who Can Purchase GTINs?
+This list is correct as of November 2026.
 
-Some organizations primarily serve businesses located within their geographic region.
+### Buying in the US through GS1 Assistant
 
-Others may accept businesses from outside their region if they can verify the applicant's identity and business information.
+If you sell in the US, you can license a prefix from GS1 US inside GS1 Assistant: go to **Settings**, click the arrow next to **Add**, then **Get a New Prefix**. The prefix is registered to your business by GS1 US.
 
-One reason for these differences is that some GS1 Member Organizations integrate with local government systems and business registries. These organizations may require country-specific information such as:
+### Are GTINs from another country valid?
 
-- Tax identification numbers
-- Business registration numbers
-- VAT numbers
-- Other government-issued business identifiers
+Yes. A GTIN from any official GS1 member organization is valid worldwide, and works the same way on marketplaces, Shopify and retail systems that use GS1 standards. What matters is that the GTIN comes from a prefix registered to your business.
 
-Organizations with fewer local regulatory requirements may be able to support applicants from a wider range of countries.
+### When to buy elsewhere, and when to stay local
 
-Before applying, review the current eligibility requirements published by the GS1 Member Organization.
+Buying from another GS1 organization can make sense when you are launching a new brand, need many GTINs, sell mainly online, and your retail partners accept EANs.
 
-### Why Pricing Varies So Much
+Staying with your local GS1 organization is usually better when:
 
-If your businesses that need a large number of GTINs, the difference can be substantial. In some cases, pricing in the United States and Canada can be many times higher than pricing offered by certain European GS1 Member Organizations for a similar number of GTINs.
+- your retailers require UPCs, or use older systems that do not support EANs;
+- your products already carry GTINs. Changing published GTINs usually costs more than any saving;
+- local tax or registration rules make another organization impractical.
 
-This is one reason some businesses purchase GTINs from organizations outside the country where they primarily sell.
+If you are unsure, buy from the GS1 organization in the country where your business is based, or where you expect to sell most.
 
-But price should not be the only factor considered. Please consider Barcode format requirements, retailer requirements, eligibility rules, and integration capabilities for the best choice.
+### Related articles
 
-### UPC vs EAN
-
-One of the biggest differences between regions is the barcode format that businesses commonly use.
-
-North America traditionally uses UPC barcodes.
-
-Many other countries primarily use EAN barcodes.
-
-For most modern ecommerce systems, marketplaces, and retailers, both formats are accepted.
-
-Amazon, Google Shopping, Shopify, and most major retailers support both UPC and EAN identifiers.
-
-However, some older retail systems in North America still expect UPC codes and may not fully support EANs.
-
-This is one reason some businesses continue to purchase GTINs through GS1 US or GS1 Canada even when another GS1 Member Organization offers lower pricing.
-
-### GS1 Assistant Integration Differences
-
-GS1 Assistant supports GTIN assignment and management regardless of which official GS1 Member Organization issued your GTINs. Some GS1 Member Organizations provide services that allow GS1 Assistant to integrate more closely with their systems.
-
-Depending on the GS1 Member Organization, these integrations may allow you to synchronize product information directly rather than manually exporting and importing spreadsheets.
-
-Available integration capabilities vary by GS1 Member Organization and may change over time.
-
-![screenshot:GS1 Assistant integrations](GS1Assistantintegrations.png)
-
-### Are GTINs Purchased Outside My Country Still Valid?
-
-Yes. GTINs issued by an official GS1 Member Organization are globally valid.
-
-A GTIN issued by one GS1 Member Organization can be used the same way as a GTIN issued by another GS1 Member Organization.
-
-They can be used with:
-
-- Amazon
-- Google Shopping
-- Walmart Marketplace
-- Shopify
-- Retailer and distributor systems that support GS1 standards
-
-What matters is that the GTIN was issued by an authorized GS1 Member Organization and assigned correctly.
-
-### When Purchasing Outside Your Region May Make Sense
-
-Purchasing GTINs from another GS1 Member Organization may make sense when:
-
-- You are launching a new brand
-- You need a large number of GTINs
-- The cost difference is significant
-- You primarily sell through ecommerce channels
-- Your retail partners support EAN barcodes
-- You want access to specific GS1 Assistant integration features
-
-### When Staying with Your Local GS1 Organization May Make Sense
-
-Using your local GS1 Member Organization may be the better choice when:
-
-- Your retailers specifically require UPC barcodes
-- You work with older retail systems that do not support EANs
-- You already have active GTINs in use
-- You prefer working with a local GS1 organization
-- Government or regulatory requirements make it impractical to use a different GS1 Member Organization
-
-Some GS1 Member Organizations integrate with local government systems, business registries, or tax authorities. Depending on the country, local requirements may make it easier or, in some cases, necessary to work with the GS1 Member Organization serving your region.
-
-If your products are already published with existing GTINs, changing GTINs is usually more expensive than any potential savings.
-
-### How to Choose a GS1 Member Organization
-
-Before purchasing GTINs, compare:
-
-- Pricing
-- Eligibility requirements
-- Barcode format (UPC or EAN)
-- Integration capabilities
-- Retailer or marketplace requirements
-
-If you're unsure, purchasing GTINs from either the country where your business is located, or the country where you expect to sell most of your products is usually the safest choice.
+- [Before You Install: Do You Have a GS1 Company Prefix?](https://gs1assistant.crisp.help/en/article/before-you-install-do-you-have-a-gs1-company-prefix-1rhru8v/)
+- [UPC vs EAN vs GTIN](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/)

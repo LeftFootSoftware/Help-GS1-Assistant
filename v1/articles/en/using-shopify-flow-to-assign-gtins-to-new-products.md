@@ -1,126 +1,62 @@
-## Using Shopify Flow to Assign GTINs to New Products
+## Assign GTINs to New Products Automatically with Shopify Flow
 
-Shopify Flow allows you to build custom automation workflows that include GTIN assignment.
-
-Unlike Auto Assign, which runs on every new variant automatically, Shopify Flow gives you complete control over when GTINs are assigned.
-
-For example, you can:
-
-- assign GTINs when a product variant is created
-- assign GTINs only for products with specific tags
-- assign GTINs only for products in selected collections
-- delay assignment until other setup tasks are complete
-- combine GTIN assignment with other Shopify Flow actions
-
-GS1 Assistant provides an Assign GTIN action that can be added to any Shopify Flow workflow.
-
-### Pro plan required
-
-Shopify Flow GTIN assignment is available on the: **Pro plan**
-
-If you are using Free/Basic, you can still assign GTINs manually or through Bulk Assign.
+Set up Auto Assign so that every new variant gets a GTIN from your prefix when it is added in Shopify. Auto Assign runs through Shopify Flow.
 
 ### Before you start
 
-Make sure you have:
+- **The Automation plan.** Auto Assign and every GS1 Assistant action in Shopify Flow need the Automation plan. On other plans, assign GTINs yourself; see [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/).
+- **Shopify Flow**, a free Shopify app, installed from the [Shopify App Store](https://apps.shopify.com/flow).
+- **A company prefix with free GTINs.** Check **Remaining** under **Settings** > **Prefixes**.
 
-- GS1 Assistant installed on the Pro plan
-- A valid GS1 company prefix
-- Available GTINs remaining in your block
-- [Shopify Flow](https://apps.shopify.com/flow) installed
+### Option 1: Import the ready-made workflow (recommended)
 
-Shopify Flow is available for free in the Shopify App Store.
+The ready-made workflow waits 10 seconds after a variant is added, checks that its barcode is empty, then runs **Assign GTIN to Variant**. The wait gives Shopify time to save the new variant before the check runs.
 
-### Important: GTIN assignment via Shopify Flow
+1. Download the workflow file: [Auto Assign GTIN to New Variants.flow](https://raw.githubusercontent.com/LeftFootSoftware/Help-GS1-Assistant/main/v1/assets/en/Auto%20Assign%20GTIN%20to%20New%20Variants.flow).
+2. In your Shopify admin, open **Apps** > **Flow**.
+3. Click **Import** and choose the file.
+4. Click **Turn on workflow**.
 
-GS1 Assistant supports GTIN assignment through Shopify Flow. To avoid tracking complexity, use a single Flow-based automation setup.
+### Option 2: Build the workflow yourself
 
-### Example workflow: Assign GTIN when a variant is created
+1. In your Shopify admin, open **Apps** > **Flow** and click **Create workflow**.
+2. Choose the trigger **Product variant added**.
+3. Add an action: search for **GS1**, then choose **Assign GTIN to Variant** from **GS1 Assistant (UPC EAN GTIN)**.
+4. Fill in both fields with **Add variable**: **Variant id** = `{{productVariant.id}}` and **Product id** = `{{product.id}}`.
 
-![screenshot:Example Shopify Flow workflow](ExampleShopifyFlowworkflow.png)
+![screenshot:The Assign GTIN to Variant action in Shopify Flow, with the Variant id and Product id fields. The Add variable links (4) are outlined.](FlowActionFields.png)
 
-This is only one example.
+5. Click **Turn on workflow**.
 
-The Assign GTIN action can be placed anywhere within a Shopify Flow workflow. You can use any trigger, condition, or sequence supported by Shopify Flow before the GTIN assignment step runs.
+![screenshot:A Shopify Flow workflow that is turned on: the Product variant added trigger, then the Assign GTIN to Variant action. The button now reads Turn off workflow.](FlowWorkflowOn.png)
 
-### How to set up GTIN assignment using Shopify Flow
+To match the ready-made workflow, add a **Wait** step of 10 seconds after the trigger, and a **Condition** that the variant's barcode is empty before the action. Without the condition, check what the action does to a variant that already has a barcode before you rely on it.
 
-GS1 Assistant uses Shopify Flow to assign GTINs to new product variants. You can set this up using a ready-made workflow.
+### Check that it works
 
-**Step 1: Create or import a workflow**
+1. Add a test variant in Shopify with the barcode left empty, and save.
+2. After about a minute, open the variant in Shopify. The barcode field shows a GTIN from your prefix, with the type **GTIN**.
+3. In GS1 Assistant, click **Start Scan**. The variant appears under **Valid GTINs**.
 
-You can either:
+In Shopify Flow, **Run history** lists each run of the workflow.
 
-1. import the GS1 Assistant example workflow (check out [this file](https://drive.google.com/file/d/1BLKV8y3a4qbMOBYf4H-SOS3KnBYoYBz0/view?usp=sharing))
-2. create your own workflow from scratch
+> **Important:** a run can show as completed even when the variant did not get a GTIN. After you add products, click **Start Scan** in GS1 Assistant and check the **Needs GTIN** tab. Assign any variant left there yourself.
 
-The example workflow included in this article assigns a GTIN when a new variant is created and the Barcode field is empty.
+### Good to know
 
-![screenshot:Import workflow in Shopify Flow](ImportworkflowinShopifyFlow.png)
+- **The action has no prefix setting.** Flow takes the GTIN from a prefix in your **Prefixes** table; you cannot choose which one in the workflow.
+- **Auto Assign only covers variants added after you turn the workflow on.** For the products you already have, use [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/).
+- **The GS1 Assistant counts do not update by themselves after Flow assigns a GTIN.** Click **Start Scan**.
+- **Auto Assign is not Auto Sync.** Auto Assign gives new variants a GTIN. Auto Sync sends products to GS1 where your GS1 organization has an API.
 
-**Step 2: Check the trigger**
+### Troubleshooting
 
-The workflow runs when a product variant is created.
+- **A new variant has no GTIN.** Check that the workflow is on. Then check the **Needs GTIN** tab after **Start Scan**, and assign the variant yourself. If it keeps happening, add or lengthen the **Wait** step; bulk imports can need up to a minute.
+- **The workflow runs but nothing is assigned on any variant.** Check that your plan is Automation. Flow actions work only on that plan.
+- **The workflow stopped assigning.** Your prefix may have no free GTINs left. Check **Remaining** under **Settings** > **Prefixes**.
 
-**Step 3: Add the GS1 Assistant action**
+### Related articles
 
-On the True branch, add this action: GS1 Assistant → Assign GTIN to Variant
-
-**Step 4: Save and turn on the workflow**
-
-- Save the workflow
-- Turn it on in Shopify Flow
-
-### Test the workflow
-
-Before using the workflow for live products, run a quick test.
-
-**Test 1: Empty barcode field**
-
-- Create a new product variant
-- Leave the Barcode field empty
-- Save the product
-
-**After a short delay:**
-
-- GS1 Assistant should assign a GTIN
-- the product should show OK status
-
-**Test 2: Existing barcode value**
-
-- Create another variant
-- Enter any barcode value before saving
-
-The workflow should:
-
-- skip GTIN assignment
-- leave the existing barcode untouched
-
-### GTIN not assigned?
-
-If no GTIN appears after several minutes:
-
-1. Open Shopify Flow
-2. Check the workflow run history
-3. Confirm:
-   - the workflow triggered
-   - the condition passed
-   - the GS1 Assistant action executed
-
-### What happens after assignment
-
-When the workflow runs successfully:
-
-- GS1 Assistant assigns the next available GTIN
-- Shopify’s Barcode field is updated
-- the product appears in GS1 Assistant with OK status
-
-You can also view the assignment inside the Variant Detail page.
-
-### Running low on GTINs?
-
-Each automatic assignment uses one GTIN from your available range.
-
-If your Available count reaches 0, the workflow will still run, but no GTIN will be assigned.
-
-There should be an error or clear notification when this happens. Ideally, Shopify Flow could also send an email alert when GTINs run out or when the available GTIN count reaches zero, so it doesn’t go unnoticed.
+- [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/)
+- [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/)
+- [What the GTIN Status Counts and Tabs Mean](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)

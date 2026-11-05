@@ -1,170 +1,77 @@
-## Adding and Managing Your Company Prefix
+## Add and Manage Your Company Prefix
 
-In this article, you'll learn how to add a company prefix, choose the GTIN format, set your ranges, edit a prefix, and fix common validation issues.
+Add your GS1 company prefix to GS1 Assistant, then choose its GTIN type and the range of numbers the app assigns from.
 
-### Add a new GS1 Company prefix
+### Before you start
 
-- Go to: Company Prefix page
+- **Your GS1 company prefix**, from your GS1 certificate or your GS1 account. Not sure you have one? See [Before You Install: Do You Have a GS1 Company Prefix?](https://gs1assistant.crisp.help/en/article/before-you-install-do-you-have-a-gs1-company-prefix-1rhru8v/)
+- **A plan that fits your prefix.** Essential supports prefixes up to 100 GTINs, Growth up to 1,000, and Automation any size.
 
-Here you’ll see:
+### Add a prefix
 
-- your connected prefixes (if you already have one)
-- GTIN format
-- remaining GTIN count
-- validation status
+1. In the GS1 Assistant menu, click **Settings**.
+2. In **Prefixes**, click the arrow next to **Add**.
+3. Click **Add Existing Prefix**.
 
-Most merchants add their prefix manually.
+![screenshot:Settings, Prefixes. The arrow next to Add (2) is open, and Add Existing Prefix (3) is outlined in the menu.](QuickStartAddMenu.png)
 
-Some GS1 organizations also support direct API connection. If your prefix is from a region with a supported API (such as GS1 Germany, GS1 Switzerland, GS1 Netherlands, or GS1 Brazil), you can connect with it via API.
+4. In **Company prefix or name**, type your prefix (numbers only, 6 to 11 digits) or search for your company name as GS1 registered it.
+5. Click **Add Prefix**.
 
-#### Option A: Add your prefix manually
+![screenshot:The Add your company prefix window. The Company prefix or name field (4) and the Add Prefix button (5) are outlined.](QuickStartAddPrefix.png)
 
-**Step 1: Open the Add Prefix form**
+> **GS1 US and GS1 Canada prefixes:** add a leading 0. For example, enter 12345 as 012345. Enter the GS1 Company Prefix from your certificate, not the U.P.C. Company Prefix.
 
-1. Go to the Company Prefix page
-2. Click Add Prefix
+The **Prefixes** table lists each prefix with its **Size**, **Remaining** GTINs, **Member Organization** and **Company**. The **Company** column shows the company GS1 has on record for the prefix. You can add more than one prefix. Each one keeps its own ranges and its own count of remaining GTINs.
 
-![screenshot:Add Prefix form](addprefix.png)
+### Change the GTIN type
 
-**Step 2: Enter your company prefix**
+The **GTIN Type** sets the format GS1 Assistant writes to the Shopify barcode field. The options are **EAN** and **GTIN**. With **GTIN**, prefix 5065023978 gives 14-digit barcodes such as 05065023978496. There is no UPC type: for a GS1 US or GS1 Canada prefix, **EAN** writes your UPC with a 0 in front (13 digits) and **GTIN** with 00 in front (14 digits). Both are the same number as the 12-digit UPC.
 
-Enter your prefix using numbers only without any spaces or dashes.
+1. In the GS1 Assistant menu, click **Settings**.
+2. In the **Prefixes** table, scroll right and click the pencil icon on the prefix's row. The **Company Prefixes** page opens.
 
-![screenshot:Enter company prefix](companyprefix.png)
+![screenshot:The Prefixes table scrolled right. The pencil icon (2) on the row of prefix 5065023978 is outlined.](PrefixEditIcon.png)
 
-For GS1 US users:
+3. In **GTIN Type**, choose **EAN** or **GTIN**.
+4. Click **Save** in the bar at the top of the page.
 
-- If your prefix appears as: `614141`, enter it as: `0614141`
+![screenshot:The Company Prefixes page with Prefix Details. The GTIN Type list (3) set to EAN and the Save button (4) in the Unsaved changes bar are outlined.](PrefixGTINType.png)
 
-Add the leading zero for validation.
+The new type applies to GTINs assigned from now on. Barcodes already assigned keep their old format. To change them, unassign them and assign them again; see [Assign a GTIN to One Variant](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/).
 
-**You can also add your Company name**
+### Change the range the app assigns from
 
-You can also enter your company name and if it matches with the name in GS1, it will show in the list.
+**Ranges** set which numbers in your prefix GS1 Assistant may use. **Minimum** and **Maximum** show the lowest and highest number the prefix allows. The app assigns the next free number from **Start** up to **End**.
 
-![screenshot:Enter company name](companyname.png)
+1. In the GS1 Assistant menu, click **Settings**.
+2. In the **Prefixes** table, scroll right and click the pencil icon on the prefix's row.
+3. In **Ranges**, type the **Start** and **End** numbers. To add another range, click the plus icon.
+4. Click **Save** in the bar at the top of the page.
 
-**Step 3: Choose your GTIN format**
+![screenshot:The Ranges section with Start 51 and End 89 (3) outlined, and Minimum 0 and Maximum 99 below them.](PrefixRanges.png)
 
-The format you choose determines which format we save in the Barcode field in Shopify.
+Used GTINs from this prefix outside GS1 Assistant? Set **Start** above the highest number you already used, and list any GTINs to skip under **Exclude**. See [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/).
 
-![screenshot:Choose GTIN format](gtinformat.png)
+### Get a new prefix from GS1 US
 
-![screenshot:GTIN format options](gtinformatoptions.png)
+If you sell in the US and do not have a prefix yet, click the arrow next to **Add**, then **Get a New Prefix**. The **License Company Prefix** window lists GS1 US packages by number of GTINs, from 1-10 to 1-100,000, with their prices. To find the GS1 organization for another country, click **Find My GS1 Member Organization**.
 
-**Step 4: Configure Your Assignment Range(s)**
+![screenshot:The License Company Prefix window from GS1 US Channel Partner, with packages 1-10, 1-100, 1-1,000, 1-10,000 and 1-100,000 and their prices.](PrefixLicenseNew.png)
 
-Assignment ranges control which GTINs GS1 Assistant can use from your company prefix.
+### Connect your GS1 account
 
-You can create one or more ranges depending on how you want to allocate GTINs.
+For prefixes from GS1 Germany, Netherlands, Sweden and Brazil, a **Connect** button appears in the **GS1 Connection** column. Connecting needs the **Growth** plan or above. See [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/) for the steps.
 
-![screenshot:Configure assignment ranges](ranges.png)
+### Troubleshooting
 
-For a new prefix, create a range that starts at 0.
+- **"Prefix is not valid" when you add your prefix.** Check the digits, and add the leading 0 for a GS1 US or GS1 Canada prefix. Use the GS1 Company Prefix, not the U.P.C. Company Prefix. A prefix bought or renewed recently can take from a few hours to about a week to reach GS1's registry. If it still fails, click **Help** > **Chat with us**.
+- **Your company name finds nothing.** Search for the name GS1 registered, which can differ from your store name. Or type the prefix digits instead.
+- **The Company column shows a company that is not yours.** The prefix is registered to that company. A prefix covers only products of the company it belongs to.
+- **Every new barcode has an extra leading 0.** The **GTIN Type** is set to **GTIN**. Change it, then unassign and assign the affected barcodes again.
 
-- If you've already assigned GTINs manually, start the range from the first unused position.
-- You can create multiple ranges if you want to reserve parts of your GTIN block for different products, stores, or future use.
+### Related articles
 
-Example:
-
-- Already assigned GTIN positions 0–36 manually
-- Create a range starting at 37
-
-Example range:
-
-- Start: 37
-- End: 99
-
-**Step 5: Save your prefix**
-
-Click Save.
-
-Your prefix will appear in the prefix list with a status indicator.
-
-#### Prefix status indicators
-
-The status column in the prefix list tells you whether each prefix is validated and how it’s connected.
-
-![screenshot:Prefix status indicators](Prefixstatusindicators.png)
-
-#### What to do if the prefix shows “Invalid”?
-
-This is usually caused by one of these:
-
-- Missing leading zero for GS1 US prefixes
-- Recently renewed membership
-- Incorrect prefix number
-- Recently purchased prefix
-- The prefix is registered with a different company
-
-If your prefix was purchased recently:
-
-1. Wait 24-48 hours
-2. Click “Refresh”
-3. Try again
-
-If the issue continues, contact support.
-
-#### Option B: Connect via API
-
-Some GS1 organizations support direct API connection, including:
-
-- GS1 Germany
-- GS1 Switzerland
-- GS1 Netherlands
-- GS1 Brazil
-
-If available, the connection option appears inside the prefix settings.
-
-API connection is optional. Manual setup provides the same GTIN assignment functionality. For supported GS1 organizations, API connection may require additional verification to confirm ownership of the company prefix.
-
-### Can I edit an existing prefix?
-
-No, you cannot edit:
-
-- prefix number
-- block size
-
-These are fixed after saving.
-
-You can only edit:
-
-- Start of Range
-- End of Range
-
-![screenshot:Edit prefix ranges](Editprefixranges.png)
-
-### How Assignment Ranges Work
-
-Assignment ranges control which GTIN positions GS1 Assistant can use from your company prefix.
-
-You can create one or more ranges depending on how you want to allocate GTINs.
-
-If no restrictions are needed, you can use a single range that covers your entire GTIN block.
-
-You may choose to create multiple ranges when:
-
-- reserving GTINs for future products
-- splitting GTINs across multiple stores
-- separating product lines or brands
-- managing different teams or workflows
-
-Example:
-
-| Range | Purpose |
-| --- | --- |
-| 0–499 | Main product catalog |
-| 500-699 | Future products |
-| 700-999 | Second Shopify store |
-
-### Managing multiple prefixes
-
-If your business owns multiple GS1 prefixes, you can add all of them to GS1 Assistant.
-
-Each prefix:
-
-- keeps its own range settings
-- tracks its own GTIN count
-- assigns GTINs independently
-
-**Read next:** *How to Avoid Duplicate GTIN Assignments (Setting Your Start Range)*
+- [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/)
+- [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/)
+- [Assign a GTIN to One Variant](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/)

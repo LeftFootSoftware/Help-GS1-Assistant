@@ -1,129 +1,94 @@
-## How to Install, Connect, and Add Your Prefix
+## Set Up GS1 Assistant: Quick Start
 
-This guide walks you through installing GS1 Assistant, adding your GS1 company prefix, reviewing your product dashboard, and getting ready to assign GTINs.
+Set up GS1 Assistant in three short tasks: scan your store, add your GS1 company prefix, and assign your first GTIN.
 
 ### Before you start
 
-You need a GS1 company prefix before you can assign GTINs.
+- **A GS1 company prefix.** GS1 Assistant assigns GTINs from a prefix you already own. Not sure you have one? See [Before You Install: Do You Have a GS1 Company Prefix?](https://gs1assistant.crisp.help/en/article/before-you-install-do-you-have-a-gs1-company-prefix-1rhru8v/)
+- **A plan that fits your prefix.** Essential supports prefixes up to 100 GTINs, Growth up to 1,000, and Automation any size.
+- **GS1 Assistant installed** from the Shopify App Store. Open it from **Apps** > **GS1 Assistant** in your Shopify admin.
 
-GS1 Assistant manages prefixes you already own. It does not generate or sell GTINs.
+The Dashboard's **Setup guide** lists the same tasks and ticks each one off as you finish it.
 
-**Don’t have a prefix yet?**
+### 1. Scan your store
 
-Read: *Before You Install: Do You Have a GS1 Company Prefix?*
+1. Open **GS1 Assistant**. The **Dashboard** opens.
+2. Click **Start Scan**.
 
-### Step 1: Install GS1 Assistant
+![screenshot:The top of the Dashboard: the Start Scan button (2), then the Valid GTINs and Needs GTIN counters.](QuickStartDashboardCounters.png)
 
-After installation, Shopify automatically opens GS1 Assistant inside your admin.
+When the scan finishes, the counters show how many variants have a valid GTIN (**Valid GTINs**), have no barcode (**Needs GTIN**), share a GTIN with another variant (**Duplicate GTINs**), or hold a value that is not a GTIN (**Not a GTIN**). Click **Start Scan** again whenever the counts look out of date.
 
-The app will immediately scan your store and load your product variants into the dashboard.
+### 2. Add your company prefix
 
-You do not need to add a prefix before this happens.
+1. In the GS1 Assistant menu, click **Settings**.
+2. In **Prefixes**, click the arrow next to **Add**.
+3. Click **Add Existing Prefix**.
 
-![screenshot:GS1 Assistant after installation](GS1Assistantafterinstallation.png)
+![screenshot:Settings, Prefixes. The arrow next to Add (2) is open, and Add Existing Prefix (3) is outlined in the menu.](QuickStartAddMenu.png)
 
-### Step 2: Add your GS1 company prefix
+4. In **Company prefix or name**, type your prefix (numbers only, 6 to 11 digits) or search for your company name as GS1 registered it.
+5. Click **Add Prefix**.
 
-Adding your prefix allows GS1 Assistant to start assigning GTINs.
+![screenshot:The Add your company prefix window. The Company prefix or name field (4) and the Add Prefix button (5) are outlined.](QuickStartAddPrefix.png)
 
-Without a prefix, you can view products in the dashboard, but you cannot assign barcodes.
+> **GS1 US and GS1 Canada prefixes:** add a leading 0. For example, enter 12345 as 012345. Enter the GS1 Company Prefix from your certificate, not the U.P.C. Company Prefix.
 
-#### Option A: Manual entry (all regions)
+The prefix appears in the **Prefixes** table with its **Size** and **Remaining** GTINs.
 
-Works for all GS1 organizations, including:
+**Used GTINs from this prefix before?** Before you assign anything, set where the app should start, so it does not hand out a number that is already in use. See [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/).
 
-- GS1 US
-- GS1 UK
-- GS1 Canada
-- GS1 Germany
-- GS1 France
+**No prefix yet, in the US?** Click the arrow next to **Add**, then **Get a New Prefix**, to license a prefix from GS1 US through the app.
 
-**To add your prefix:**
+### 3. Assign your first GTIN
 
-1. Visit the **Company Prefix** page and click **Add Prefix**.
+1. In the GS1 Assistant menu, click **GTIN Manager**.
+2. Click the **Needs GTIN** tab. It lists every variant without a barcode.
+3. Tick the checkbox next to the variant.
 
-![screenshot:Add Prefix button](AddPrefixbutton.png)
+![screenshot:GTIN Manager. The Needs GTIN tab (2) and the checkbox next to the first variant (3) are outlined.](QuickStartNeedsGTIN.png)
 
-2. Enter your company prefix and type the number without spaces, dashes, or other characters.
+4. Click **Assign GTIN** in the bar above the list.
 
-![screenshot:Enter company prefix](Entercompanyprefix.png)
+![screenshot:The bar above the list after selecting variants, with the Assign GTIN button (4) outlined.](QuickStartAssignBar.png)
 
-Or you can also add your company name instead of the prefix.
+5. In the **Select Company Prefix** window, check that your prefix is selected, then click **Assign**.
 
-![screenshot:Enter company name](Entercompanyname.png)
+![screenshot:The Select Company Prefix window with prefix 5065023978, its Prefix Details, and the Assign button (5) outlined.](QuickStartSelectPrefix.png)
 
-> **Note: GS1 US users**
->
-> If your prefix appears as:
-> `614141`
->
-> enter it as:
-> `0614141`
->
-> The leading zero is required.
+GS1 Assistant takes the next free GTIN from your prefix and writes it to the variant's barcode in Shopify. Click **Start Scan** to update the counts. The variant then appears under **Valid GTINs**.
 
-3. Set your **GTIN format**. This determines the barcode length.
+The **Status** filter shows active products by default. To see draft products, set **Status** to **Draft** after you click a tab, because clicking a tab resets the filter.
 
-![screenshot:Select GTIN format](SelectGTINformat.png)
+### Connect your GS1 account (GS1 Germany, Netherlands, Sweden and Brazil)
 
-![screenshot:GTIN format options](gtinformatoptions.png)
+If your prefix comes from one of these GS1 organizations, you can connect the app to your GS1 account so your products can sync to GS1. Connecting needs the **Growth** plan or above; Auto Sync needs the **Automation** plan.
 
-4. Set the **Start of Range**. Enter **0** if this is a brand new prefix. If you’ve already manually assigned some GTINs from this prefix, enter the first unused position to avoid conflicts.
+1. In the GS1 Assistant menu, click **Settings**.
+2. In the **Prefixes** table, click **Connect** in the **GS1 Connection** column of your prefix. The button shows only where the app can connect to that prefix's GS1 organization.
+3. In the **GS1 Connection** window, click the link to generate an access token in your GS1 account (for GS1 Germany: **Generate Access Token on GS1 Germany**).
+4. Paste the token into **Access Token**.
+5. Click **Validate**.
 
-![screenshot:Set start of range](Setstartofrange.png)
+![screenshot:The GS1 Connection window for GS1 Germany. The Generate Access Token on GS1 Germany link (3) and the Access Token field (4) are outlined.](QuickStartConnect.png)
 
-5. Click **Save**. Your prefix will appear in the prefix list with a status indicator.
+You do not need to connect to assign GTINs. For GS1 UK, US, Canada, France, Norway and Romania, download an import file for your GS1 portal instead; see [Downloading Your GTIN Export File for Retailers and Marketplaces](https://gs1assistant.crisp.help/en/article/downloading-your-gtin-export-file-for-retailers-and-marketplaces-1y4cusk/).
 
-Here’s what the status colors mean:
+### What to do next
 
-![screenshot:Prefix status colors](Prefixstatuscolors.png)
+- **Assign GTINs to the rest of your catalog:** [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/)
+- **Give new products a GTIN automatically** (Automation plan): [Using Shopify Flow to Assign GTINs to New Products](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/)
+- **Fill in your GS1 Defaults** (brand, category, language and more) under **Settings** > **GS1 Defaults** before you download an import file.
 
-If your prefix was purchased recently, validation may take up to 24 hours.
+### Troubleshooting
 
-If it still appears invalid after 48 hours, contact support.
+- **"Prefix is not valid" when you add your prefix.** Check the digits, and add the leading 0 for a GS1 US or GS1 Canada prefix. Use the GS1 Company Prefix, not the U.P.C. Company Prefix. A prefix bought or renewed recently can take from a few hours to about a week to reach GS1's registry. If it still fails, click **Help** > **Chat with us**.
+- **The counts look wrong or out of date.** Click **Start Scan**.
+- **A product is missing from the list.** Check the **Status** filter. Draft and archived products appear only when you choose that status.
+- **No Connect button next to your prefix.** The app has no API connection to your GS1 organization. If your organization is GS1 UK, US, Canada, France, Norway or Romania, use an import file instead.
 
-#### Option B: Connect via API (GS1 Germany, Sweden, Netherlands, Brazil)
+### Related articles
 
-Available for some GS1 organizations, including:
-
-- GS1 Germany
-- GS1 Sweden
-- GS1 Netherlands
-- GS1 Brazil
-
-To connect, open **Company Prefixes**, click **Connect** next to your prefix, and enter your GS1 access token.
-
-If you don’t see the connection option, use manual setup instead.
-
-### Step 3: Review your dashboard
-
-After adding your prefix, GS1 Assistant updates the dashboard and validates your barcode data.
-
-Most products will initially show: **Missing GTIN**
-
-This simply means the product does not yet have a barcode assigned.
-
-If some variants already had barcodes before you installed the app, the dashboard shows their validation status:
-
-![screenshot:Dashboard validation statuses](Dashboardvalidationstatuses.png)
-
-If you see Invalid or Duplicate GTIN values, those barcodes already existed in your store before installing the app.
-
-**Read:** *Understanding GTIN Status: What OK, Invalid, Unassigned, and Verified Mean*
-
-### Tip for large catalogues
-
-If your product list looks incomplete:
-
-1. Wait a few moments.
-2. Click **Start Scan** to refresh.
-
-![screenshot:Start Scan button](StartScanbutton.png)
-
-Large stores may take longer to sync.
-
-### Next step
-
-Your products are loaded, and your prefix is connected.
-
-Continue to: *Assign Your First GTIN to a Product*
+- [Adding and Managing Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/)
+- [Assign Your First GTIN to a Product](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/)
+- [Understanding GTIN Status](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)

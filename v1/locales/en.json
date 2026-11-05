@@ -29,7 +29,8 @@
       "updated": "2026-11-04",
       "articles": [
         "adding-and-managing-your-company-prefix",
-        "how-to-avoid-duplicate-gtin-assignments"
+        "how-to-avoid-duplicate-gtin-assignments",
+        "license-a-gs1-us-company-prefix"
       ]
     },
     {
@@ -123,6 +124,7 @@
     "which-plan-do-you-need": "2026-11-05",
     "gs1-rejected-my-import-file": "2026-11-05",
     "set-your-gs1-defaults": "2026-11-05",
-    "download-barcode-images": "2026-11-05"
+    "download-barcode-images": "2026-11-05",
+    "license-a-gs1-us-company-prefix": "2026-11-05"
   }
 }

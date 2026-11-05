@@ -1,130 +1,54 @@
 ## Before You Install: Do You Have a GS1 Company Prefix?
 
-Learn what a GS1 company prefix is, how to check if you already have one, and where to get one.
+Check whether you already have a GS1 company prefix, and get one if you don't. GS1 Assistant assigns GTINs only from a prefix registered to your business.
 
-Before you can use GS1 Assistant, you need a GS1 company prefix.
+### What a company prefix is
 
-Your prefix is what allows you to create valid GTINs (UPC/EAN barcodes) for your products.
+A GS1 company prefix is a number that a GS1 organization issues to your business. Every GTIN you create starts with it, followed by a product number and a check digit.
 
-Without a prefix, the app cannot assign GTINs.
+For example, with the prefix 5065023978, the product number 00 and the check digit 7, the GTIN is 5065023978007. GS1 Assistant picks the product numbers and calculates the check digit for you.
 
-### What is a GS1 company prefix?
+![screenshot:Diagram of the GTIN 5065023978007: company prefix 5065023978, product number 00, check digit 7.](prefixexample.png)
 
-A GS1 company prefix defines a block of GTINs assigned to your company that start with a given string of numbers (the prefix) issued to your business by an official GS1 organization.
+### How many GTINs a prefix gives you
 
-Every GTIN you create starts with this prefix. Marketplaces like Amazon, Google Shopping, and Walmart use it to verify that the barcode belongs to your business.
+The longer the prefix, the fewer GTINs it holds. For a 13-digit GTIN:
 
-In the example below, if your prefix is `506502397`, the product number is `800`, and the check digit is `7`, the GTIN will look like `5065023978007`.
+| Prefix length | Number of GTINs |
+|---|---|
+| 11 digits | 10 |
+| 10 digits | 100 |
+| 9 digits | 1,000 |
+| 8 digits | 10,000 |
+| 7 digits | 100,000 |
 
-![screenshot:GS1 company prefix example](prefixexample.png)
+Each variant needs its own GTIN. Count your variants, including sizes and colours, before you choose a size. Your GS1 Assistant plan also has a limit: Essential supports prefixes up to 100 GTINs, Growth up to 1,000, and Automation any size.
 
-### How many GTINs can you create?
+### Check whether you already have a prefix
 
-The length of your prefix determines how many GTINs you can generate.
+- **Your GS1 account.** Log in to your GS1 organization's portal, for example GS1 US, GS1 UK or GS1 Germany. Your prefix is on your account or your certificate.
+- **Your existing barcodes.** If you already used GS1 barcodes, they start with your prefix. For example, the GTIN 00614141123452 comes from the prefix 0614141.
 
-Most Shopify merchants purchase prefixes that support:
+> **GS1 US and GS1 Canada certificates** show two numbers. GS1 Assistant needs the **GS1 Company Prefix**, not the U.P.C. Company Prefix.
 
-- 10 GTINs
-- 100 GTINs
-- 1,000 GTINs
+### Get a prefix if you don't have one
 
-If you’re unsure where to start, a 100 GTIN prefix is usually enough for many small to mid-sized stores.
+- **In the US:** you can license a prefix from GS1 US inside GS1 Assistant. Go to **Settings**, click the arrow next to **Add**, then **Get a New Prefix**.
 
-Here’s an example of how prefix length determines the number of GTINs available:
+![screenshot:The License Company Prefix window from GS1 US Channel Partner, with packages 1-10, 1-100, 1-1,000, 1-10,000 and 1-100,000 and their prices.](PrefixLicenseNew.png)
 
-![screenshot:Prefix length and available GTINs](availableGTINs.png)
+- **Anywhere else:** buy a prefix from the GS1 organization in your country. Find yours on [GS1's list of member organizations](https://www.gs1.org/contact/overview).
 
-> **Important: GS1 Assistant does not provide prefixes**
->
-> GS1 Assistant manages the GTINs linked to your prefix.
->
-> It doesn’t generate free barcodes or sell GTINs.
->
-> The only exception is GS1 US customers, who can purchase a prefix through the app directly from GS1 US.
+Barcodes sold cheaply by resellers are not registered to your business. GS1's records show them under another company, or under none. See [Where Should I Buy GTINs From?](https://gs1assistant.crisp.help/en/article/where-should-i-buy-gtins-from-17okkfp/) and [UPC vs EAN vs GTIN](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/).
 
-![screenshot:Purchase a GS1 US prefix](GS1USprefix.png)
+### A new prefix shows "Prefix is not valid"
 
-### How to check if you already have a prefix
+A prefix you bought or renewed recently can take from a few hours to about a week to reach GS1's registry. Until then, GS1 Assistant may show **Prefix is not valid** when you add it.
 
-#### Option 1: Check your GS1 account
-
-Log in to your GS1 member organization portal.
-
-Your prefix should appear in your account dashboard.
-
-Examples:
-
-- GS1 US
-- GS1 Germany
-- GS1 UK
-
-#### Option 2: Check your existing barcodes
-
-If you’ve already assigned GTINs to products before, the first digits usually represent your prefix.
-
-Example:
-
-- GTIN: `00614141123457`
-- Prefix: `0614141`
-
-### My prefix shows as ‘Invalid’ in the app
-
-If you recently:
-
-- purchased a prefix
-- renewed your membership
-
-it may take some time for GS1 databases to update.
-
-In most cases:
-
-- wait 24 hours
-- click **Start Scan** to refresh the app
-- try again
-
-If your prefix still shows as invalid after 48 hours, contact support and the team can manually verify it.
-
-### If you don’t have a prefix yet: where to get one?
-
-You must purchase a prefix from an official GS1 organization.
-
-Your GTINs will still work globally regardless of which GS1 organization you purchase from.
-
-![screenshot:Official GS1 organizations](GS1organizations.png)
-
-### UPC vs EAN: What should you know?
-
-Prefixes from:
-
-- GS1 US
-- GS1 Canada
-
-support UPC (12-digit) barcodes.
-
-Most other GS1 organizations issue EAN (13-digit) barcodes. Amazon, Google Shopping, and Walmart accept both formats.
-
-However, some physical US retailers still require UPC barcodes due to antiquated systems.
-
-If you plan to sell through US retail stores, keep this in mind before choosing a GS1 organization.
-
-> **Tip:** Different GS1 Member Organizations have different pricing models, and some allow businesses outside their region to register as well. If you don’t need UPC codes, you can buy from GS1 Germany or GS1 UK, which are more cost-effective.
-
-Some websites sell low-cost barcodes that are not registered to your business.
-
-Marketplaces now verify GTIN ownership against GS1 records. If the barcode belongs to another company, your listings may be rejected.
-
-GS1 Assistant may also flag these codes as invalid.
-
-If you already have some of these on your products, see the article: *How to Remove Invalid or ‘Not GTIN’ Barcodes in Bulk to clean them up.*
+1. Check the digits. For GS1 US and GS1 Canada, add a leading 0, for example 012345.
+2. Wait, then try to add the prefix again.
+3. If it still fails after a week, or you need it sooner, click **Help** > **Chat with us**. The support team can check it for you.
 
 ### Once you have your prefix
 
-After getting your prefix, you can connect it to GS1 Assistant and start assigning GTINs to your Shopify products.
-
-If you’ve already assigned GTINs manually before, you can also choose where the app should begin assigning new numbers to avoid duplicates.
-
-### Useful links
-
-- [GS1 US membership page](https://www.gs1us.org/who-we-are/membership)
-- [GS1 Germany portal](https://www.gs1.org/locations/germany)
-- [GS1 UK membership page](https://www.gs1uk.org/about-us/membership)
+Install GS1 Assistant and follow [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/). If you already gave some products GTINs from this prefix, read [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/) before you assign new ones.

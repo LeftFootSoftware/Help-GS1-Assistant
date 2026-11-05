@@ -1,113 +1,78 @@
-## Downloading Your GTIN Export File for Retailers and Marketplaces
+## Download an Import File for Your GS1 Portal
 
-This guide explains when you need an export file, when you do not need one, how to download it, and where to upload it.
+Download a file of your assigned GTINs and product details in your GS1 organization's format, then upload it to your GS1 portal.
 
-### Most Shopify merchants do not need the export file
+### Do you need an import file?
 
-When you assign GTINs in GS1 Assistant, the codes are automatically written to Shopify’s Barcode field.
+GTINs you assign are already in the barcode field of your Shopify products. An import file is for adding those products to your GS1 organization's records.
 
-Marketplaces like Amazon, Google Shopping, and Walmart use GTINs available in Shopify.
+| Your GS1 organization | How products reach GS1 |
+|---|---|
+| GS1 Germany, Netherlands, Sweden, Brazil | Auto Sync sends them for you (**Automation** plan). See [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/). You can also download an import file. |
+| GS1 UK, US, Canada, France, Norway, Romania | Download an import file and upload it to your GS1 portal. |
+| Any other organization | GS1 Assistant has no file or sync for it yet. Add your products in your GS1 portal. |
 
-For most marketplace selling, you do not need to download or upload anything else.
+This list is correct as of November 2026.
 
-### When you do need the export file
+### Before you start
 
-You only need to download if you want to load products into your member organization's portal so that they appear in Verified by GS1 database.
+- **Your variants have GTINs.** They are listed under the **Valid GTINs** tab in **GTIN Manager**.
+- **You know your product's GPC brick.** The **Category** field needs a GS1 brick, the most detailed level of the Global Product Classification. Click **GPC Browser** in the window to find it.
 
-The export file is mainly used for two situations:
+### Download the file
 
-| Situation | Why you need the export |
-| --- | --- |
-| Uploading products to your GS1 member portal | Registers products in the GS1 registry |
-| Sharing product data with retailers or distributors | Uses product data available in Shopify |
+1. In **GTIN Manager**, click the **Valid GTINs** tab.
+2. Tick the variants to include. To select the whole list, tick the top checkbox, then click **Select all [number]+ variants**.
+3. Click **Download Import File** in the bar above the list.
 
-### How to download the export file
+![screenshot:The bar above the list with the Download Import File button (3) outlined.](ExportBarButton.png)
 
-1. Open the dashboard and select the variants you want to export
-2. Click **Download Import File** in the action bar at the top right of the variant list.
+4. In **GS1 Member Organization**, choose your GS1 organization. The fields below change to match it.
+5. In **Category**, choose your product's brick.
+6. Fill in the other fields. For GS1 USA, change **Language** from **aa** to your language, for example **en**. If you leave it at **aa**, the language columns in the file stay empty, and GS1 US requires them.
 
-![screenshot:Download Import File button](DownloadImportFilebutton.png)
+![screenshot:The Download window for GS1 USA. GS1 Member Organization (4), Category (5) and Language set to aa (6) are outlined. Target Market, Brand, Net Content Count and Net Content Unit Of Measure are also shown.](ExportUSAWindow.png)
 
-It’s recommended to use the: **OK / Valid filter**.
+7. Click **Ok**.
 
-3. From the **Download box**, select your **GS1 Member Organization** from the dropdown for example, GS1 UK, GS1 US, or GS1 Germany.
+For GS1 USA, the window also has **Target Market**, **Brand**, **Net Content Count**, **Net Content Unit Of Measure**, **Action**, **Packaging Level**, **Product Status**, **Industry**, **Purchasable** and **Variable**. Fill in **Brand**: in our test, an empty **Brand** put the store name in the file.
 
-![screenshot:Select GS1 Member Organization](SelectGS1MemberOrganization.png)
+### Get the file from Downloads
 
-#### Additional setup for GS1 UK
+GS1 Assistant builds the file in the background. A message confirms the request.
 
-Some GS1 member organizations require you to start with a spreadsheet or template downloaded from their portal before importing product data.
+1. In the GS1 Assistant menu, click **Downloads**.
+2. When the file shows "Your file is ready to download.", click **Download**.
 
-When this is required:
+The file stays on the **Downloads** page for 24 hours. For GS1 USA, it is an Excel file named GS1_US_Product_Import_ followed by a number.
 
-1. Download the template from your GS1 organization's portal
-2. Upload the template inside GS1 Assistant
-3. GS1 Assistant merges your GTIN and product data into the file automatically
-4. Download the completed file and upload it back to your GS1 organization's portal
+### Upload the file to GS1
 
-**Example:** GS1 UK currently uses this workflow through NumberBank.
+Upload the file to your GS1 portal, such as Data Hub for GS1 US. Check every row before you upload: GS1 Assistant fills in the file from your Shopify data and the fields you chose, and does not check it against your GS1 organization's rules.
 
-> **Note:** The download dialog will indicate when a template upload is required for your selected GS1 member organization.
+### GS1 UK: update your NumberBank file
 
-### Complete the required fields
+For GS1 UK, GS1 Assistant adds your GTINs and product details to a file you export from My Numberbank. It does not create a new file.
 
-Fill in all fields shown in the Download dialog.
+1. In the **Download** window, choose **GS1 UK**, then click **Choose File** and select the Excel file you exported from My Numberbank.
+2. In **Category**, choose your product's brick.
 
-The fields vary depending on which GS1 organization you select. Common fields include Net Content Count, Net Content Unit of Measure, Action, and Packaging Level.
+![screenshot:The Download window for GS1 UK. Choose File (1) with the message Please Select GS1 UK NumberBank file to Update, and Category (2) with the message Please Select Brick, are outlined.](ExportUKWindow.png)
 
-If a Category field appears, use a valid GS1 category code. Do not enter free-text categories or Shopify collection names. Incorrect values may cause the upload to fail at your GS1 organization's portal.
+3. Check **Target Market**, **Status**, **Brand**, **Submit to Verified by GS1**, **Net Content** and **Unit Of Measure**, then click **Ok**.
 
-**Download the file**
+**Ok** stays greyed out until you choose a file and a brick. Upload the updated file back to My Numberbank. Keep its columns and headers unchanged.
 
-Click: OK
+### Troubleshooting
 
-The export file downloads to your computer.
+- **Download Import File is not in the bar.** Tick at least one variant first.
+- **Ok is greyed out (GS1 UK).** Choose your NumberBank file and a brick in **Category**.
+- **The file is not on the Downloads page yet.** Wait a few minutes, then open **Downloads** again.
+- **The GS1 US file has empty language columns.** Download it again with **Language** set to your language instead of **aa**.
+- **Your GS1 organization is not in the list.** GS1 Assistant has no file for it yet. Add your products in your GS1 portal.
 
-### Where to upload the file
+### Related articles
 
-![screenshot:Where to upload the export file](Wheretouploadtheexportfile.png)
-
-### Sharing the file with retailers or distributors
-
-Some wholesale buyers request GS1-formatted product data during onboarding.
-
-The export file can be shared with:
-
-- retailers
-- distributors
-- EDI onboarding systems
-- supplier portals
-
-Read: *Selling Wholesale: What Retailers (Nordstrom, Target, Walmart) Actually Require*
-
-### You do not need to upload immediately
-
-Your GTINs already work inside Shopify as soon as they are assigned.
-
-Uploading to your GS1 organization is usually optional unless:
-
-- you want Verified by GS1 visibility
-- a retailer specifically requests it
-- your GS1 member organization requires product-level data uploads
-
-For most Shopify merchants selling online, assigning GTINs inside GS1 Assistant is enough.
-
-### Re-download previous exports
-
-GS1 Assistant stores your previous export files inside the Downloads page.
-
-You can:
-
-- re-download old exports
-- reuse previous files
-- send files to additional buyers later
-
-### What the Downloads count means
-
-The Downloads count simply tracks how many GTINs were included in export files previously.
-
-It does not affect:
-
-- GTIN validity
-- assignment status
-- marketplace usage
+- [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/)
+- [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/)
+- [Understanding GTIN Status](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)

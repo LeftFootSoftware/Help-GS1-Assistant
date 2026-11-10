@@ -6,7 +6,7 @@ Fill in your GS1 Defaults once, so the product details GS1 needs are filled in f
 
 GS1 Defaults hold the details most of your products share, such as your brand, product category and language. When you open the **Download** window for an import file, GS1 Assistant fills in those fields from your defaults. You can still change them in the window before you click **Ok**.
 
-Without defaults, the file can carry the wrong values. For example, an empty brand puts your store name in the file, and the GS1 USA language starts at **aa**, which leaves the language columns empty.
+Without defaults, the file can carry the wrong values. For example, an empty brand puts the product's Shopify vendor in the file, or your store name if the vendor is empty too, and the GS1 USA language starts at **aa**, which leaves the language columns empty.
 
 ### Fill in your GS1 Defaults
 

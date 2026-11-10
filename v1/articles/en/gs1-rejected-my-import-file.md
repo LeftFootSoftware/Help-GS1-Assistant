@@ -16,7 +16,7 @@ Fix the most common reasons a GS1 portal rejects the import file you downloaded 
 - **A French description is missing (GS1 Canada).** GS1 Canada asks for a French product description next to the English one. GS1 Assistant does not translate. Add the French text in the file's French description column before you upload.
 - **The NumberBank file does not match (GS1 UK).** For GS1 UK, GS1 Assistant updates the Excel file you export from My Numberbank. Export a fresh file from My Numberbank for the same prefix, choose it under **Choose File**, and upload the result without changing its headers.
 - **Blank rows (GS1 UK).** Delete empty rows from the file, then upload again.
-- **The brand is wrong.** If you leave **Brand** empty, the file uses the product's **Vendor** from Shopify, or your store name if the vendor is empty too. Fill in **Brand** in the **Download** window.
+- **The brand is wrong.** If you leave **Brand** empty, the file uses the product's **Vendor** from Shopify. Shopify sets an empty vendor to your store name, so the file can carry your store name. Fill in **Brand** in the **Download** window.
 - **A GTIN is already used for another product in your GS1 portal.** GS1 Assistant cannot see products that exist only in your GS1 portal. Replace the GTIN and stop it happening again; see [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/).
 - **A barcode is not a valid GTIN.** Check the **Not a GTIN** tab in **GTIN Manager** and fix those variants before you download. See [What the GTIN Status Counts and Tabs Mean](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/).
 

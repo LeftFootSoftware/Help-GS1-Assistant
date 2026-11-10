@@ -35,7 +35,7 @@ This list is correct as of November 2026.
 
 7. Click **Ok**.
 
-For GS1 USA, the window also has **Target Market**, **Brand**, **Net Content Count**, **Net Content Unit Of Measure**, **Action**, **Packaging Level**, **Product Status**, **Industry**, **Purchasable** and **Variable**. Fill in **Brand**: if it is empty, the file uses the product's Shopify vendor, or your store name if the vendor is empty too.
+For GS1 USA, the window also has **Target Market**, **Brand**, **Net Content Count**, **Net Content Unit Of Measure**, **Action**, **Packaging Level**, **Product Status**, **Industry**, **Purchasable** and **Variable**. Fill in **Brand**: if it is empty, the file uses the product's Shopify vendor, and Shopify sets an empty vendor to your store name.
 
 ### Get the file from Downloads
 

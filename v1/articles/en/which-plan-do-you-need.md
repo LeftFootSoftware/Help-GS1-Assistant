@@ -9,13 +9,13 @@ Choose a plan by two things: the size of your GS1 company prefix, and whether yo
 | Prefix size | Up to 100 GTINs | Up to 1,000 GTINs | Any size |
 | Assign GTINs, find missing and invalid GTINs | Yes | Yes | Yes |
 | Import files for 10 GS1 organizations | Yes | Yes | Yes |
-| Connect to your GS1 account (where supported) | No | Yes | Yes |
+| API Synchronization (where supported) | No | Yes | Yes |
 | Auto Assign: GTINs for new products | No | No | Yes |
-| Auto Sync: products sent to GS1 automatically | No | No | Yes |
+| Auto Sync where your GS1 has an API | No | No | Yes |
 | Usage charges per GTIN assigned | Yes | Yes | No |
 | Support | Email and Zoom | Email and Zoom | Priority email and Zoom |
 
-Current prices are on the [GS1 Assistant listing in the Shopify App Store](https://apps.shopify.com/gs1-assistant). This table is correct as of November 2026.
+Current prices are on the [GS1 Assistant listing in the Shopify App Store](https://apps.shopify.com/gs1-assistant). The two sync rows quote the plan page in the app. This table is correct as of November 2026.
 
 ### How usage charges work
 
@@ -24,7 +24,7 @@ On **Essential** and **Growth**, you pay for the GTINs you assign each month, on
 ### Which plan fits you
 
 - **Your prefix holds more than 100 GTINs:** you need **Growth** at least. Over 1,000 GTINs, you need **Automation**. Check your prefix size under **Settings** > **Prefixes** (**Size**).
-- **Your prefix is from GS1 Germany, Netherlands, Sweden or Brazil:** **Growth** lets you connect to your GS1 account. **Automation** adds Auto Sync. For the steps, see the connect section of [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/).
+- **Your prefix is from GS1 Germany, Netherlands, Sweden or Brazil:** the plan page lists "API Synchronization (where supported)" from **Growth** up, and "Auto Sync where your GS1 has an API" on **Automation**. For the steps, see the connect section of [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/).
 - **You add new products often:** **Automation** gives each new variant a GTIN through Shopify Flow. See [Assign GTINs to New Products Automatically with Shopify Flow](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/).
 - **You assign many GTINs each month:** compare the usage charges on Essential or Growth with the fixed price of Automation.
 

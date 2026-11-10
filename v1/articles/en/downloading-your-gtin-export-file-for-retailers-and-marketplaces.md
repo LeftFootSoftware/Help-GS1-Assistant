@@ -8,7 +8,7 @@ GTINs you assign are already in the barcode field of your Shopify products. An i
 
 | Your GS1 organization | How products reach GS1 |
 |---|---|
-| GS1 Germany, Netherlands, Sweden, Brazil | Auto Sync sends them for you (**Automation** plan). See [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/). You can also download an import file. |
+| GS1 Germany, Netherlands, Sweden, Brazil | Auto Sync sends them for you after you connect your GS1 account. See [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/). You can also download an import file. |
 | GS1 UK, US, Canada, France, Norway, Romania | Download an import file and upload it to your GS1 portal. |
 | Any other organization | GS1 Assistant has no file or sync for it yet. Add your products in your GS1 portal. |
 

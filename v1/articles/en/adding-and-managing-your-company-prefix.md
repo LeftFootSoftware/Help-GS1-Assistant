@@ -59,6 +59,10 @@ If you sell in the US and do not have a prefix yet, click the arrow next to **Ad
 
 ![screenshot:The License Company Prefix window from GS1 US Channel Partner, with packages 1-10, 1-100, 1-1,000, 1-10,000 and 1-100,000 and their prices.](PrefixLicenseNew.png)
 
+### Single GTINs instead of a prefix
+
+GS1 Assistant assigns GTINs from a GS1 Company Prefix. A single GTIN cannot be added as a prefix: the **Add Existing Prefix** window accepts 6 to 11 digits and shows "Company Prefix must be between 6 and 11 digits" for anything longer. Type a single GTIN into the variant's **Barcode** field in Shopify yourself. GS1 Assistant reads it on the next scan.
+
 ### Connect your GS1 account
 
 For prefixes from GS1 Germany, Netherlands, Sweden and Brazil, a **Connect** button appears in the **GS1 Connection** column. Connecting needs the **Growth** plan or above. See [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/) for the steps.

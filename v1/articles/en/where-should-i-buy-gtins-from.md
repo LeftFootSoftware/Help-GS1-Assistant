@@ -23,7 +23,7 @@ Find the member organization for any country on [GS1's list of member organizati
 
 | GS1 organization | How products reach GS1 from GS1 Assistant |
 |---|---|
-| GS1 Germany, Netherlands, Sweden, Brazil | Auto Sync (**Automation** plan) |
+| GS1 Germany, Netherlands, Sweden, Brazil | Auto Sync, after you connect your GS1 account |
 | GS1 UK, US, Canada, France, Norway, Romania | An import file you upload to your GS1 portal |
 | Any other organization | You add products in your GS1 portal yourself |
 
@@ -32,6 +32,10 @@ This list is correct as of November 2026.
 ### Buying in the US through GS1 Assistant
 
 If you sell in the US, you can license a prefix from GS1 US inside GS1 Assistant: go to **Settings**, click the arrow next to **Add**, then **Get a New Prefix**. The prefix is registered to your business by GS1 US.
+
+### Single GTINs
+
+Some GS1 organizations, such as GS1 US, also sell single GTINs instead of a Company Prefix. GS1 Assistant assigns GTINs from a Company Prefix, so it cannot assign single GTINs for you. Type each single GTIN into the variant's **Barcode** field in Shopify yourself.
 
 ### Are GTINs from another country valid?
 

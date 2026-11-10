@@ -14,7 +14,7 @@ This list is correct as of November 2026.
 
 ### Before you start
 
-- **The right plan.** Connecting needs the **Growth** plan or above. Auto Sync needs the **Automation** plan.
+- **The right plan.** The plan page in the app lists "API Synchronization (where supported)" from **Growth** up, and "Auto Sync where your GS1 has an API" on **Automation**.
 - **Your prefix is added** under **Settings** > **Prefixes**. See [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/).
 - **Admin access to your GS1 account.** The access token must come from a GS1 user with admin rights for the prefix you connect. For GS1 Germany, a token from a user without those rights does not work.
 

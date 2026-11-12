@@ -62,7 +62,7 @@ The **Status** filter shows active products by default. To see draft products, s
 
 ### Connect your GS1 account (GS1 Germany, Netherlands, Sweden and Brazil)
 
-If your prefix comes from one of these GS1 organizations, you can connect the app to your GS1 account so your products can sync to GS1. The plan page in the app lists "API Synchronization (where supported)" from **Growth** up, and "Auto Sync where your GS1 has an API" on **Automation**.
+If your prefix comes from one of these GS1 organizations, you can connect the app to your GS1 account so your products can sync to GS1. The plan page in the app lists "API Synchronization (where supported)" from **Growth** up, and "Auto Sync where your GS1 has an API" on **Automation**. On both, assigning a GTIN sends it to GS1.
 
 1. In the GS1 Assistant menu, click **Settings**.
 2. In the **Prefixes** table, click **Connect** in the **GS1 Connection** column of your prefix. The button shows only where the app can connect to that prefix's GS1 organization.

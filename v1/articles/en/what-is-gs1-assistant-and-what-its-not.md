@@ -18,7 +18,7 @@ GS1 Assistant assigns GTINs from your own GS1 company prefix to your Shopify var
 | Download barcode images | Click **Download Barcode** and choose **SVG Format** or **PNG Format**. |
 | Get a prefix in the US | **Settings** > arrow next to **Add** > **Get a New Prefix** licenses a prefix from GS1 US through the app. |
 
-Auto Assign needs the **Automation** plan. For sending products to GS1, the plan page lists "API Synchronization (where supported)" from **Growth** up, and "Auto Sync where your GS1 has an API" on **Automation**.
+Auto Assign needs the **Automation** plan. For sending products to GS1, the plan page lists "API Synchronization (where supported)" from **Growth** up, and "Auto Sync where your GS1 has an API" on **Automation**. On both, assigning a GTIN sends it to GS1.
 
 ### What GS1 Assistant does not do
 

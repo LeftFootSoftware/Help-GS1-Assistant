@@ -23,7 +23,7 @@ The counts update only when you scan. Click **Start Scan** after you assign GTIN
 | **Duplicate GTINs** | More than one variant has the same barcode. The tab groups them in one row, for example "2 variants". | Keep the GTIN on one variant and give the others a new one. See [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/). |
 | **Not a GTIN** | The barcode field has a value that is not a valid GTIN. A label gives the reason, for example **Invalid Check Digit** or **Not GTIN**. | See **Fix a Not a GTIN value** below. |
 
-> **Valid GTINs is a format check.** It does not mean that GS1 has the product on record, or that a marketplace accepts the code. The **Verified by GS1** column shows whether a product was submitted to GS1.
+> **Note:** Valid GTINs is a format check. It does not mean that GS1 has the product on record, or that a marketplace accepts the code. The **Verified by GS1** column shows whether a product was submitted to GS1.
 
 **Why the counts add up to more than All:** a variant with a duplicate barcode also counts under **Valid GTINs** or **Not a GTIN**. For example, with All 49: Valid GTINs 36 + Needs GTIN 0 + Not a GTIN 13 = 49, and the 7 duplicates are inside those numbers.
 

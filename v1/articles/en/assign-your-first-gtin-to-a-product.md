@@ -4,7 +4,7 @@ Assign a GTIN from your company prefix to one product variant, check that it rea
 
 ### Before you start
 
-- **Your company prefix is added** under **Settings** > **Prefixes** and shows GTINs under **Remaining**. See [Adding and Managing Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/).
+- **Your company prefix is added** under **Settings** > **Prefixes** and shows GTINs under **Remaining**. See [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/).
 - **Used GTINs from this prefix before?** Set where the app should start first, so it does not hand out a number that is already in use. See [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/).
 
 ### Assign the GTIN
@@ -27,7 +27,7 @@ GS1 Assistant takes the next free GTIN from your prefix and writes it to the var
 
 A row without a barcode also has an **Assign Barcode** button. It opens the same window for that one variant.
 
-> **Product not in the list?** The **Status** filter shows active products by default. To see a draft product, set **Status** to **Draft** after you click the tab, because clicking a tab resets the filter.
+> **Tip:** Product not in the list? The **Status** filter shows active products by default. To see a draft product, set **Status** to **Draft** after you click the tab, because clicking a tab resets the filter.
 
 ### Check the result
 
@@ -80,4 +80,4 @@ The GTIN is removed from the variant. Removing it does not add the number back t
 
 - [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/)
 - [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/)
-- [Understanding GTIN Status](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)
+- [What the GTIN Status Counts and Tabs Mean](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)

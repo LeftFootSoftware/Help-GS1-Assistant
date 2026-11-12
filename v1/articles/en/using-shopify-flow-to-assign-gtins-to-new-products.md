@@ -40,7 +40,7 @@ To match the ready-made workflow, add a **Wait** step of 10 seconds after the tr
 
 In Shopify Flow, **Run history** lists each run of the workflow.
 
-> **Important:** a run can show as completed even when the variant did not get a GTIN. After you add products, click **Start Scan** in GS1 Assistant and check the **Needs GTIN** tab. Assign any variant left there yourself.
+> **Warning:** a run can show as completed even when the variant did not get a GTIN. After you add products, click **Start Scan** in GS1 Assistant and check the **Needs GTIN** tab. Assign any variant left there yourself.
 
 ### Good to know
 

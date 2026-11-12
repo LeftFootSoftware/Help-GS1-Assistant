@@ -4,13 +4,13 @@ Bulk Assign gives every variant you select the next free GTIN from your company 
 
 ### Before you start
 
-- **A company prefix in the app.** It appears under **Settings** > **Prefixes**. To add one, see [Adding and Managing Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/).
+- **A company prefix in the app.** It appears under **Settings** > **Prefixes**. To add one, see [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/).
 - **Enough free GTINs.** The **Remaining** column shows how many GTINs the prefix has left. Each variant uses one.
 - **The right starting point.** If you used GTINs from this prefix before (by hand, in a spreadsheet, in another store or in another system), set the **Start** of the prefix's range past those numbers first. Otherwise the app can assign a GTIN that is already in use. See [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/).
 
 ![screenshot:Settings, Prefixes table. The Remaining column for prefix 5065023978 is outlined and shows 39.](BulkPrefixRemaining.png)
 
-> **Bulk Assign only fills empty barcodes.** It skips every variant that already has a barcode value, whether the value is valid or not. To replace existing barcodes, see **Replace barcodes a variant already has** below.
+> **Note:** Bulk Assign only fills empty barcodes. It skips every variant that already has a barcode value, whether the value is valid or not. To replace existing barcodes, see **Replace barcodes a variant already has** below.
 
 ### Assign GTINs to every variant that needs one
 
@@ -30,7 +30,7 @@ Bulk Assign gives every variant you select the next free GTIN from your company 
 
 ![screenshot:The Select Company Prefix window with prefix 5065023978, its Prefix Details (Remaining 41, GS1 UK, Block Size 100) and the Assign button outlined (7).](BulkSelectCompanyPrefix.png)
 
-> **Important:** If you skip step 5, only the variants on the current page get GTINs. Moving to another page clears the selection.
+> **Warning:** If you skip step 5, only the variants on the current page get GTINs. Moving to another page clears the selection.
 
 ### What happens next
 
@@ -53,7 +53,7 @@ Bulk Assign never overwrites a barcode. To replace barcodes, for example values 
 
 ### Assign GTINs to new products automatically
 
-Bulk Assign covers the products you have today. To give new variants a GTIN as they are created, use Auto Assign. Auto Assign runs through Shopify Flow and needs the **Automation** plan. See [Using Shopify Flow to Assign GTINs to New Products](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/).
+Bulk Assign covers the products you have today. To give new variants a GTIN as they are created, use Auto Assign. Auto Assign runs through Shopify Flow and needs the **Automation** plan. See [Assign GTINs to New Products Automatically with Shopify Flow](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/).
 
 ### Troubleshooting
 
@@ -65,7 +65,7 @@ Bulk Assign covers the products you have today. To give new variants a GTIN as t
 
 ### Related articles
 
-- [Assign Your First GTIN to a Product](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/)
+- [Assign a GTIN to One Variant](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/)
 - [How to Avoid Duplicate GTIN Assignments](https://gs1assistant.crisp.help/en/article/how-to-avoid-duplicate-gtin-assignments-6wuc5a/)
-- [Understanding GTIN Status](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)
-- [Using Shopify Flow to Assign GTINs to New Products](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/)
+- [What the GTIN Status Counts and Tabs Mean](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)
+- [Assign GTINs to New Products Automatically with Shopify Flow](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/)

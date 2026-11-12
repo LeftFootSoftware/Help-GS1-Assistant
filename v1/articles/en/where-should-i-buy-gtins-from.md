@@ -18,7 +18,7 @@ Find the member organization for any country on [GS1's list of member organizati
 
 - **Who can apply.** Some organizations serve only businesses in their own country. Some ask for a local tax, VAT or business registration number. Check the organization's current requirements before you apply.
 - **Price.** Prices differ a lot between organizations. Compare the published price for the number of GTINs you need, including the yearly renewal.
-- **Barcode format.** GS1 US and GS1 Canada issue 12-digit UPCs. Most other organizations issue 13-digit EANs. Most marketplaces and retailers accept both, but some older North American retail systems still expect UPCs. See [UPC vs EAN vs GTIN](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/).
+- **Barcode format.** GS1 US and GS1 Canada issue 12-digit UPCs. Most other organizations issue 13-digit EANs. Most marketplaces and retailers accept both, but some older North American retail systems still expect UPCs. See [UPC vs EAN vs GTIN: What Do I Actually Need?](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/).
 - **What GS1 Assistant can do with them.** GS1 Assistant assigns GTINs from any official GS1 prefix. How your products reach GS1 depends on the organization:
 
 | GS1 organization | How products reach GS1 from GS1 Assistant |
@@ -56,4 +56,4 @@ If you are unsure, buy from the GS1 organization in the country where your busin
 ### Related articles
 
 - [Before You Install: Do You Have a GS1 Company Prefix?](https://gs1assistant.crisp.help/en/article/before-you-install-do-you-have-a-gs1-company-prefix-1rhru8v/)
-- [UPC vs EAN vs GTIN](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/)
+- [UPC vs EAN vs GTIN: What Do I Actually Need?](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/)

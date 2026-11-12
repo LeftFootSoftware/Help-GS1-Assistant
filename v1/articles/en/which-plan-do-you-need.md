@@ -4,7 +4,7 @@ Choose a plan by two things: the size of your GS1 company prefix, and whether yo
 
 ### The plans at a glance
 
-| | Essential | Growth | Automation |
+| Feature | Essential | Growth | Automation |
 |---|---|---|---|
 | Prefix size | Up to 100 GTINs | Up to 1,000 GTINs | Any size |
 | Assign GTINs, find missing and invalid GTINs | Yes | Yes | Yes |

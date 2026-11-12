@@ -32,7 +32,7 @@ When the scan finishes, the counters show how many variants have a valid GTIN (*
 
 ![screenshot:The Add your company prefix window. The Company prefix or name field (4) and the Add Prefix button (5) are outlined.](QuickStartAddPrefix.png)
 
-> **GS1 US and GS1 Canada prefixes:** add a leading 0. For example, enter 12345 as 012345. Enter the GS1 Company Prefix from your certificate, not the U.P.C. Company Prefix.
+> **Tip:** GS1 US and GS1 Canada prefixes: add a leading 0. For example, enter 12345 as 012345. Enter the GS1 Company Prefix from your certificate, not the U.P.C. Company Prefix.
 
 The prefix appears in the **Prefixes** table with its **Size** and **Remaining** GTINs.
 
@@ -72,12 +72,12 @@ If your prefix comes from one of these GS1 organizations, you can connect the ap
 
 ![screenshot:The GS1 Connection window for GS1 Germany. The Generate Access Token on GS1 Germany link (3) and the Access Token field (4) are outlined.](QuickStartConnect.png)
 
-You do not need to connect to assign GTINs. For GS1 UK, US, Canada, France, Norway and Romania, download an import file for your GS1 portal instead; see [Downloading Your GTIN Export File for Retailers and Marketplaces](https://gs1assistant.crisp.help/en/article/downloading-your-gtin-export-file-for-retailers-and-marketplaces-1y4cusk/).
+You do not need to connect to assign GTINs. For GS1 UK, US, Canada, France, Norway and Romania, download an import file for your GS1 portal instead; see [Download an Import File for Your GS1 Portal](https://gs1assistant.crisp.help/en/article/downloading-your-gtin-export-file-for-retailers-and-marketplaces-1y4cusk/).
 
 ### What to do next
 
 - **Assign GTINs to the rest of your catalog:** [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/)
-- **Give new products a GTIN automatically** (Automation plan): [Using Shopify Flow to Assign GTINs to New Products](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/)
+- **Give new products a GTIN automatically** (Automation plan): [Assign GTINs to New Products Automatically with Shopify Flow](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/)
 - **Fill in your GS1 Defaults** (brand, category, language and more) under **Settings** > **GS1 Defaults** before you download an import file.
 
 ### Troubleshooting
@@ -89,6 +89,6 @@ You do not need to connect to assign GTINs. For GS1 UK, US, Canada, France, Norw
 
 ### Related articles
 
-- [Adding and Managing Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/)
-- [Assign Your First GTIN to a Product](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/)
-- [Understanding GTIN Status](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)
+- [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/)
+- [Assign a GTIN to One Variant](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/)
+- [What the GTIN Status Counts and Tabs Mean](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)

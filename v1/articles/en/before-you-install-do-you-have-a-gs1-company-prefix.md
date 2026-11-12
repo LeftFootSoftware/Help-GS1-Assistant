@@ -29,7 +29,7 @@ Each variant needs its own GTIN. Count your variants, including sizes and colour
 - **Your GS1 account.** Log in to your GS1 organization's portal, for example GS1 US, GS1 UK or GS1 Germany. Your prefix is on your account or your certificate.
 - **Your existing barcodes.** If you already used GS1 barcodes, they start with your prefix. For example, the GTIN 00614141123452 comes from the prefix 0614141.
 
-> **GS1 US and GS1 Canada certificates** show two numbers. GS1 Assistant needs the **GS1 Company Prefix**, not the U.P.C. Company Prefix.
+> **Note:** GS1 US and GS1 Canada certificates show two numbers. GS1 Assistant needs the **GS1 Company Prefix**, not the U.P.C. Company Prefix.
 
 ### Get a prefix if you don't have one
 
@@ -39,7 +39,7 @@ Each variant needs its own GTIN. Count your variants, including sizes and colour
 
 - **Anywhere else:** buy a prefix from the GS1 organization in your country. Find yours on [GS1's list of member organizations](https://www.gs1.org/contact/overview).
 
-Barcodes sold cheaply by resellers are not registered to your business. GS1's records show them under another company, or under none. See [Where Should I Buy GTINs From?](https://gs1assistant.crisp.help/en/article/where-should-i-buy-gtins-from-17okkfp/) and [UPC vs EAN vs GTIN](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/).
+Barcodes sold cheaply by resellers are not registered to your business. GS1's records show them under another company, or under none. See [Where Should I Buy GTINs From?](https://gs1assistant.crisp.help/en/article/where-should-i-buy-gtins-from-17okkfp/) and [UPC vs EAN vs GTIN: What Do I Actually Need?](https://gs1assistant.crisp.help/en/article/upc-vs-ean-vs-gtin-3b4ykj/).
 
 ### A new prefix shows "Prefix is not valid"
 

@@ -39,7 +39,7 @@ GS1 Assistant checks the token and connects to your GS1 account. If the token is
 
 Your GS1 organization checks what it receives and decides what it accepts.
 
-> **Auto Sync is not Auto Assign.** Auto Sync sends products to GS1. Auto Assign gives new products a GTIN through Shopify Flow. See [Assign GTINs to New Products Automatically with Shopify Flow](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/).
+> **Note:** Auto Sync is not Auto Assign. Auto Sync sends products to GS1. Auto Assign gives new products a GTIN through Shopify Flow. See [Assign GTINs to New Products Automatically with Shopify Flow](https://gs1assistant.crisp.help/en/article/using-shopify-flow-to-assign-gtins-to-new-products-1qol6ru/).
 
 ### Troubleshooting
 

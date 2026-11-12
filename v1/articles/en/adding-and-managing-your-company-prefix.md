@@ -20,7 +20,7 @@ Add your GS1 company prefix to GS1 Assistant, then choose its GTIN type and the 
 
 ![screenshot:The Add your company prefix window. The Company prefix or name field (4) and the Add Prefix button (5) are outlined.](QuickStartAddPrefix.png)
 
-> **GS1 US and GS1 Canada prefixes:** add a leading 0. For example, enter 12345 as 012345. Enter the GS1 Company Prefix from your certificate, not the U.P.C. Company Prefix.
+> **Tip:** GS1 US and GS1 Canada prefixes: add a leading 0. For example, enter 12345 as 012345. Enter the GS1 Company Prefix from your certificate, not the U.P.C. Company Prefix.
 
 The **Prefixes** table lists each prefix with its **Size**, **Remaining** GTINs, **Member Organization** and **Company**. The **Company** column shows the company GS1 has on record for the prefix. You can add more than one prefix. Each one keeps its own ranges and its own count of remaining GTINs.
 

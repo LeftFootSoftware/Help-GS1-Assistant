@@ -1,90 +1,45 @@
-## What Is GS1 Assistant? (And What It's Not)
+## What GS1 Assistant Does (and What It Doesn't)
 
-In this article, you will learn what GS1 Assistant does, what it doesn’t do, and what you need before you start using it.
+GS1 Assistant assigns GTINs from your own GS1 company prefix to your Shopify variants, shows which barcodes need attention, and helps you send your products to GS1.
 
-### Before you start
+### What you need
 
-Before you can use GS1 Assistant, you need a valid GS1 company prefix.
+- **A GS1 company prefix** from your GS1 organization. GS1 Assistant assigns numbers from it; it does not create its own barcodes. Not sure you have one? See [Before You Install: Do You Have a GS1 Company Prefix?](https://gs1assistant.crisp.help/en/article/before-you-install-do-you-have-a-gs1-company-prefix-1rhru8v/)
+- **A plan that fits your prefix.** Essential supports prefixes up to 100 GTINs, Growth up to 1,000, and Automation any size.
 
-The app does not generate or sell its own barcodes. It manages the GTINs linked to your existing GS1 prefix.
+### What GS1 Assistant does
 
-**Don’t have a prefix yet?**
+| Task | How |
+|---|---|
+| Assign GTINs | Pick variants in **GTIN Manager**, click **Assign GTIN**. The app takes the next free number from your prefix and writes it to the Shopify barcode field. |
+| Find barcodes that need attention | After **Start Scan**, the tabs show variants that need a GTIN, share a GTIN, or hold a value that is not a GTIN, with the reason. |
+| Give new products a GTIN automatically | Auto Assign through Shopify Flow. |
+| Send products to GS1 | Auto Sync for GS1 Germany, Netherlands, Sweden and Brazil. An import file for GS1 UK, US, Canada, France, Norway and Romania. List as of November 2026. |
+| Download barcode images | Click **Download Barcode** and choose **SVG Format** or **PNG Format**. |
+| Get a prefix in the US | **Settings** > arrow next to **Add** > **Get a New Prefix** licenses a prefix from GS1 US through the app. |
 
-Read: *Before You Install: Do You Have a GS1 Company Prefix?*
-
-### What you can do with GS1 Assistant
-
-#### 1. Assign GTINs to your Shopify products
-
-You can assign GTINs (UPC/EAN barcodes) to your Shopify product variants directly inside the app.
-
-Instead of manually updating barcode fields yourself:
-
-- Select your products and click **Assign GTIN**
-
-![screenshot:Assign GTIN to selected products](AssignGTINtoselectedproducts.png)
-
-GS1 Assistant adds the next available GTINs from your prefix.
-
-#### 2. Find invalid barcode data
-
-If you’ve imported products from another platform, CSV file, or app, some barcode values may be invalid.
-
-GS1 Assistant helps you identify:
-
-- Invalid GTIN formats
-- Duplicate barcodes
-- Placeholder values
-- Barcodes from unofficial sources
-
-This helps reduce listing issues on marketplaces like Amazon and Google Shopping.
-
-#### 3. Export barcode data
-
-After assigning GTINs, you can export barcode data to supported GS1 Member Organization formats within the app. Exporting Shopify product and barcode data to platforms such as Amazon Seller Central, Google Merchant Center, or wholesale retailer systems would require additional integrations or export formats.
+Auto Assign needs the **Automation** plan. For sending products to GS1, the plan page lists "API Synchronization (where supported)" from **Growth** up, and "Auto Sync where your GS1 has an API" on **Automation**.
 
 ### What GS1 Assistant does not do
 
-#### 1. It does not sell barcodes
-
-GS1 Assistant only manages GTINs connected to your GS1 company prefix.
-
-If you’re based in the US and don’t yet have a prefix, you can purchase one from GS1 US through the app. The prefix still comes directly from GS1.
-
-#### 2. It does not replace your GS1 membership
-
-You still need to maintain your GS1 membership with your regional GS1 organization, such as:
-
-- GS1 US
-- GS1 UK
-- GS1 Germany
-
-The app does not manage membership renewals or billing.
-
-#### 3. It does not automatically make your products ‘Verified by GS1’
-
-‘Verified by GS1’ is a separate status in GS1’s product registry.
-
-Most marketplaces verify if the GTIN was assigned from a GS1 prefix belonging to your business. If product-specific information has been published to Verified by GS1, they may also validate that the product information you provide matches those records.
-
-GS1 Assistant helps you manage GTIN assignments linked to your GS1 prefix.
+- **It does not sell barcodes of its own.** Every GTIN comes from a prefix registered to your business. In the US you can license that prefix through the app, but it still comes from GS1 US.
+- **It does not replace your GS1 membership.** You keep your membership and pay its renewals with your GS1 organization.
+- **It does not check that a code is accepted.** A GTIN under **Valid GTINs** has the right format. Whether GS1 has the product on record, and whether a marketplace accepts it, is decided outside the app.
+- **It does not add products to GS1 by itself, except through Auto Sync.** Where Auto Sync is not available, you upload the import file to your GS1 portal.
 
 ### Is GS1 Assistant right for you?
 
-GS1 Assistant may be a good fit if you:
+It is a good fit if you:
 
-- Already have a GS1 company prefix
-- Sell on Amazon, Google Shopping, Walmart, or wholesale channels
-- Manage multiple product variants
-- Want to stop assigning barcodes manually
-- Need to clean up invalid barcode data
+- have a GS1 company prefix, or will license one;
+- sell many variants and want to stop typing barcodes by hand;
+- need to clean up barcode values from CSV imports or other apps.
 
-**The app may not be suitable if:**
+It is not the right tool if you want low-cost barcodes from a reseller: those codes are not registered to your business, and GS1 Assistant cannot assign them from a prefix.
 
-- You’re looking for low-cost reseller barcodes
-- You don’t currently need GTINs for your sales channels
-- You want to assign barcodes to your products for internal use
+GS1 Assistant can also assign numbers for internal use only, from a prefix that starts with 02 or 2. These are not for retail or marketplaces. To set one up, click **Help** > **Chat with us**.
 
 ### Next step
 
-If you already have a GS1 company prefix, continue to: *Before You Install: Do You Have a GS1 Company Prefix?*
+- **You have a prefix:** [Set Up GS1 Assistant: Quick Start](https://gs1assistant.crisp.help/en/article/how-to-install-connect-and-add-your-prefix-17v6vte/)
+- **You don't have one yet:** [Before You Install: Do You Have a GS1 Company Prefix?](https://gs1assistant.crisp.help/en/article/before-you-install-do-you-have-a-gs1-company-prefix-1rhru8v/)

@@ -35,7 +35,7 @@ The counts update only when you scan. Click **Start Scan** after you assign GTIN
 
 The key below the list explains the rest:
 
-![screenshot:The key below the list: Synced, submitted to GS1. Not submitted, not yet submitted to GS1. An amber bar, needs a GTIN assigned. A red bar, GTIN shared by more than one variant.](StatusLegend.png)
+![screenshot:The key below the list: Synced, Not submitted, an amber bar for a variant that needs a GTIN, and a red bar for a shared GTIN.](StatusLegend.png)
 
 | You see | Meaning |
 |---|---|

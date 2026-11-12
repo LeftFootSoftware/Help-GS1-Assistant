@@ -28,7 +28,7 @@ The ready-made workflow waits 10 seconds after a variant is added, checks that i
 
 5. Click **Turn on workflow**.
 
-![screenshot:A Shopify Flow workflow that is turned on: the Product variant added trigger, then the Assign GTIN to Variant action. The button now reads Turn off workflow.](FlowWorkflowOn.png)
+![screenshot:A Shopify Flow workflow that is on: Product variant added, then Assign GTIN to Variant. The button now reads Turn off workflow.](FlowWorkflowOn.png)
 
 To match the ready-made workflow, add a **Wait** step of 10 seconds after the trigger, and a **Condition** that the variant's barcode is empty before the action. Without the condition, check what the action does to a variant that already has a barcode before you rely on it.
 

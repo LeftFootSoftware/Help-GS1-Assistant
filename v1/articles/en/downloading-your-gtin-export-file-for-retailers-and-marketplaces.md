@@ -31,7 +31,7 @@ This list is correct as of November 2026.
 5. In **Category**, choose your product's brick.
 6. Fill in the other fields. For GS1 USA, change **Language** from **aa** to your language, for example **en**. If you leave it at **aa**, the language columns in the file stay empty, and GS1 US requires them.
 
-![screenshot:The Download window for GS1 USA. GS1 Member Organization (4), Category (5) and Language set to aa (6) are outlined. Target Market, Brand, Net Content Count and Net Content Unit Of Measure are also shown.](ExportUSAWindow.png)
+![screenshot:The Download window for GS1 USA. GS1 Member Organization (4), Category (5) and Language set to aa (6) are outlined.](ExportUSAWindow.png)
 
 7. Click **Ok**.
 
@@ -57,7 +57,7 @@ For GS1 UK, GS1 Assistant adds your GTINs and product details to a file you expo
 1. In the **Download** window, choose **GS1 UK**, then click **Choose File** and select the Excel file you exported from My Numberbank.
 2. In **Category**, choose your product's brick.
 
-![screenshot:The Download window for GS1 UK. Choose File (1) with the message Please Select GS1 UK NumberBank file to Update, and Category (2) with the message Please Select Brick, are outlined.](ExportUKWindow.png)
+![screenshot:The Download window for GS1 UK. Choose File (1) and Category (2) are outlined, each with a Please Select message.](ExportUKWindow.png)
 
 3. Check **Target Market**, **Status**, **Brand**, **Submit to Verified by GS1**, **Net Content** and **Unit Of Measure**, then click **Ok**.
 

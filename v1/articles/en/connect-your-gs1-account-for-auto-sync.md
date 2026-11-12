@@ -25,7 +25,7 @@ This list is correct as of November 2026.
 3. In the **GS1 Connection** window, click the link to create an access token in your GS1 account (for GS1 Germany: **Generate Access Token on GS1 Germany**). Create the token there and copy it.
 4. Paste the token into **Access Token**.
 
-![screenshot:The GS1 Connection window for GS1 Germany: Generate API Token, Enter API Token and Synchronize Prefixes, then Select GS1 Member Organization GS1-Germany.de. The Generate Access Token on GS1 Germany link (3) and the Access Token field (4) are outlined.](QuickStartConnect.png)
+![screenshot:The GS1 Connection window for GS1 Germany. The Generate Access Token on GS1 Germany link (3) and Access Token field (4) are outlined.](QuickStartConnect.png)
 
 5. Click **Validate**.
 

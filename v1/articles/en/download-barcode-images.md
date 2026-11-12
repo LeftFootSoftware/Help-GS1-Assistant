@@ -14,7 +14,7 @@ Download a barcode image for each variant that has a GTIN, in SVG or PNG format,
 3. Click **Download Barcode** in the bar above the list.
 4. In the **Select Barcode Format** window, click **SVG Format** or **PNG Format**.
 
-![screenshot:The Select Barcode Format window with the text Choose the format for downloading barcodes. The SVG Format and PNG Format buttons (4) are outlined, with Cancel below.](BarcodeFormatWindow.png)
+![screenshot:The Select Barcode Format window, with the SVG Format and PNG Format buttons (4) outlined and Cancel below.](BarcodeFormatWindow.png)
 
 The window closes and your browser downloads a ZIP file. GS1 Assistant shows no message. Look for the file in your browser's downloads.
 
@@ -26,7 +26,7 @@ To download the barcode of one variant, click the eye icon on its row, then clic
 - **Each image** is named with the product, the variant and the GTIN, for example Linen_Shirt_-_S_5065023978571.png.
 - **The PNG image** shows the bars with the GTIN digits below them, on a white background, about 430 to 450 pixels wide and 244 pixels high.
 
-![screenshot:A downloaded PNG barcode image for an EAN prefix: an EAN-13 barcode with longer bars at the start, middle and end, and the digits 5 065023 978571 below them, on a white background.](BarcodePNGExample.png)
+![screenshot:A downloaded PNG barcode for an EAN prefix: an EAN-13 barcode with the digits 5 065023 978571 below it, on a white background.](BarcodePNGExample.png)
 
 Choose **SVG Format** when you print large or resize the barcode: an SVG image stays sharp at any size. A PNG image has a fixed number of pixels and blurs when you enlarge it.
 

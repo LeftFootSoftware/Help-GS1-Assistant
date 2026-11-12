@@ -16,7 +16,7 @@ If you sell in the US and have no GS1 company prefix yet, license one from GS1 U
 4. Select a package. Each package shows how many GTINs it holds and its price.
 5. Click **Continue**.
 
-![screenshot:The License Company Prefix window. The five packages (4), from 1-10 for $250.00 to 1-100,000 for $10,500.00, and the Continue button (5) are outlined. Find My GS1 Member Organization sits next to Continue.](LicensePrefixWindow.png)
+![screenshot:The License Company Prefix window. The five packages (4), from 1-10 to 1-100,000, and the Continue button (5) are outlined.](LicensePrefixWindow.png)
 
 6. Fill in **Contact Information** and **Company Information**, then click **Continue to Payment**.
 

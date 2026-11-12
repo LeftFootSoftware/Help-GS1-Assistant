@@ -21,10 +21,11 @@ A 12-digit UPC with a 0 in front is the same number as a 13-digit EAN. With 00 i
 
 GS1 Assistant writes each GTIN in the format set by your prefix's **GTIN Type** under **Settings** > **Prefixes**:
 
+- **UPC** writes 12 digits. It is offered only for a GS1 US or GS1 Canada prefix, and it is the default there.
 - **EAN** writes 13 digits.
 - **GTIN** writes 14 digits, starting with 0.
 
-There is no 12-digit UPC type. A GS1 US or GS1 Canada prefix is added with a leading 0, so its codes are written as 13 or 14 digits. They are still the same numbers as your UPCs. To change the type, see [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/).
+A GS1 US or GS1 Canada prefix is added with a leading 0. Keep **UPC** to write 12-digit UPCs; **EAN** and **GTIN** write the same numbers with one or two zeros in front. To change the type, see [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/).
 
 GS1 Assistant reads UPC, EAN and GTIN-14 values that start with 0. It does not support EAN-8, or GTIN-14 values that start with 1 to 9. An 8-digit barcode shows under **Not a GTIN**.
 

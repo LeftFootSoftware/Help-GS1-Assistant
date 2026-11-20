@@ -22,7 +22,7 @@ Find out why a count in GS1 Assistant differs from what you expect, and how to c
 - **The highest number in your prefix is 99 or 999, not 100 or 1,000.** The numbers in a prefix start at 0. A prefix of 100 runs from 0 to 99, which is why the range shows **Minimum** 0 and **Maximum** 99. All 100 numbers are there.
 - **The tabs add up to more than All.** A variant with a duplicate GTIN also counts under **Valid GTINs** or **Not a GTIN**. For details, see [What the GTIN Status Counts and Tabs Mean](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/).
 - **The counts are higher than your number of products.** The counts are per variant. A shirt in 3 sizes counts 3 times.
-- **A list shows fewer rows than its tab count.** The tab counts include every variant. The list shows only the variants that match your search and **Status** filter. Clear the search, or set **Status** to **Draft** or **Archived**.
+- **A list shows fewer rows than its tab count.** The tab counts include every variant. The list shows only the variants that match your search and **Status** filter. Clear the search and remove any **Status** filter.
 - **A barcode you typed counts under Not a GTIN.** It has a wrong check digit, a hidden character or a space. Type it again in Shopify, then click **Start Scan**.
 
 ### Still wrong?

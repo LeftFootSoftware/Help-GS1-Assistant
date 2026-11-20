@@ -59,7 +59,7 @@ Most **Not a GTIN** values were in the barcode field before GS1 Assistant was in
 ### Troubleshooting
 
 - **The counts look out of date.** Click **Start Scan**.
-- **A product is missing from a tab.** The **Status** filter shows active products by default. Set **Status** to **Draft** or **Archived** after you click the tab, because clicking a tab resets the filter.
+- **A product is missing from a tab.** GTIN Manager sets no **Status** filter by default. Check whether a **Status** filter or a search is set, and remove it.
 - **A barcode looks correct but shows as Not a GTIN.** It probably has a hidden character or space. Type it again in Shopify, then click **Start Scan**.
 
 ### Related articles

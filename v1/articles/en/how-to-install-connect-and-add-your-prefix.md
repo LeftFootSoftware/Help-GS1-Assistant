@@ -58,7 +58,7 @@ The prefix appears in the **Prefixes** table with its **Size** and **Remaining**
 
 GS1 Assistant takes the next free GTIN from your prefix and writes it to the variant's barcode in Shopify. Click **Start Scan** to update the counts. The variant then appears under **Valid GTINs**.
 
-The **Status** filter shows active products by default. To see draft products, set **Status** to **Draft** after you click a tab, because clicking a tab resets the filter.
+GTIN Manager sets no **Status** filter by default. To narrow the list by status, click **Add filter** and choose **Status**.
 
 ### Connect your GS1 account (GS1 Germany, Netherlands, Sweden and Brazil)
 
@@ -84,7 +84,7 @@ You do not need to connect to assign GTINs. For GS1 UK, US, Canada, France, Norw
 
 - **"Prefix is not valid" when you add your prefix.** Check the digits, and add the leading 0 for a GS1 US or GS1 Canada prefix. Use the GS1 Company Prefix, not the U.P.C. Company Prefix. A prefix bought or renewed recently can take from a few hours to about a week to reach GS1's registry. If it still fails, click **Help** > **Chat with us**.
 - **The counts look wrong or out of date.** Click **Start Scan**.
-- **A product is missing from the list.** Check the **Status** filter. Draft and archived products appear only when you choose that status.
+- **A product is missing from the list.** Check whether a **Status** filter is set, and remove it. Clear the search too.
 - **No Connect button next to your prefix.** The app has no API connection to your GS1 organization. If your organization is GS1 UK, US, Canada, France, Norway or Romania, use an import file instead.
 
 ### Related articles

@@ -27,7 +27,7 @@ GS1 Assistant takes the next free GTIN from your prefix and writes it to the var
 
 A row without a barcode also has an **Assign Barcode** button. It opens the same window for that one variant.
 
-> **Tip:** Product not in the list? The **Status** filter shows active products by default. To see a draft product, set **Status** to **Draft** after you click the tab, because clicking a tab resets the filter.
+> **Tip:** Product not in the list? GTIN Manager sets no **Status** filter by default. Clear the search and remove any **Status** filter. To narrow the list by status, click **Add filter** and choose **Status**.
 
 ### Check the result
 

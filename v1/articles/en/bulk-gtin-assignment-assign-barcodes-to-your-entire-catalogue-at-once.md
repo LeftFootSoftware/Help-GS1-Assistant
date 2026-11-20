@@ -19,7 +19,7 @@ Bulk Assign gives every variant you select the next free GTIN from your company 
 
 ![screenshot:GTIN Manager tabs. The Needs GTIN tab is outlined and numbered 2.](BulkNeedsGTINTab.png)
 
-3. Optional: narrow the list. Type a product name in **Search and filter**, or click **Add filter** and choose **Collection** or **Company Prefix**. The **Status** filter shows active products by default. To include draft products, change **Status** to **Draft**.
+3. Optional: narrow the list. Type a product name in **Search and filter**, or click **Add filter** and choose **Collection**, **Company Prefix** or **Status**. GTIN Manager sets no **Status** filter by default.
 4. Tick the checkbox at the top of the list. This selects the variants on the current page.
 5. Click **Select all [number]+ variants**. This extends the selection to every variant in the list, on every page.
 6. Click **Assign GTIN**.

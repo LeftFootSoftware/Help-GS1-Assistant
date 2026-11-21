@@ -93,6 +93,17 @@
         "upc-vs-ean-vs-gtin",
         "where-should-i-buy-gtins-from"
       ]
+    },
+    {
+      "slug": "plans-and-account",
+      "title": "Plans and account",
+      "icon": "getting-started.svg",
+      "description": "What each plan includes and how usage charges work.",
+      "author": "Brian McKinley",
+      "updated": "2026-11-21",
+      "articles": [
+        "gs1-assistant-pricing-and-plans"
+      ]
     }
   ],
   "articleUpdates": {
@@ -113,6 +124,7 @@
     "gs1-rejected-my-import-file": "2026-11-10",
     "set-your-gs1-defaults": "2026-11-10",
     "download-barcode-images": "2026-11-05",
-    "license-a-gs1-us-company-prefix": "2026-11-05"
+    "license-a-gs1-us-company-prefix": "2026-11-05",
+    "gs1-assistant-pricing-and-plans": "2026-11-21"
   }
 }

@@ -57,6 +57,17 @@
         "upc-vs-ean-vs-gtin",
         "where-should-i-buy-gtins-from"
       ]
+    },
+    {
+      "slug": "plans-and-account",
+      "title": "Plans and account",
+      "icon": "getting-started.svg",
+      "description": "What each plan includes and how usage charges work.",
+      "author": "Brian McKinley",
+      "updated": "2026-11-21",
+      "articles": [
+        "gs1-assistant-pricing-and-plans"
+      ]
     }
   ],
   "articleUpdates": {
@@ -71,6 +82,7 @@
     "downloading-your-gtin-export-file-for-retailers-and-marketplaces": "2026-06-27",
     "using-shopify-flow-to-assign-gtins-to-new-products": "2026-06-27",
     "upc-vs-ean-vs-gtin": "2026-07-27",
-    "where-should-i-buy-gtins-from": "2026-06-27"
+    "where-should-i-buy-gtins-from": "2026-06-27",
+    "gs1-assistant-pricing-and-plans": "2026-11-21"
   }
 }

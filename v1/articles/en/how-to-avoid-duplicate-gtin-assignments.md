@@ -1,161 +1,82 @@
 ## How to Avoid Duplicate GTIN Assignments
 
-If you've already assigned GTINs from your company prefix before using GS1 Assistant, you need to tell the app which GTINs are already in use.
+Stop GS1 Assistant from assigning a GTIN you already used outside the app, and fix duplicates that already exist.
 
-This helps prevent duplicate assignments and ensures new GTINs are assigned only from available positions.
+### Why duplicates happen
 
-### Configure assignment ranges and exclusions
+GS1 Assistant sees only the barcodes in your Shopify store. It does not know about a GTIN from your prefix that is used somewhere else, for example:
 
-![screenshot:Configure assignment ranges and exclusions](Configureassignmentrangesandexclusions.png)
+- GTINs you assigned before you installed GS1 Assistant, in a spreadsheet or in your GS1 portal
+- GTINs used in another Shopify store or another sales system
+- GTINs of products you deleted from Shopify. After you delete a product, the app can assign its GTIN again.
 
-Use assignment ranges and excluded GTINs to prevent GS1 Assistant from reusing codes that are already assigned.
+To prevent this, set where the app starts in your prefix, and give it a list of GTINs to skip.
 
-**GS1 Assistant uses two methods to avoid duplicate GTIN assignments:**
+### Before you start
 
-- Assignment ranges tell the app which GTIN positions it is allowed to assign.
-- Excluded GTINs tell the app which specific GTINs should never be assigned, even if they are not currently attached to a Shopify product.
+- **Find the GTINs you already used.** Your GS1 portal can usually export a list of the GTINs issued from your prefix. If you are not sure, leave a bigger gap rather than risk reusing a number.
 
-### When duplicates can happen
+### Set where the app starts
 
-GS1 Assistant checks your Shopify store before assigning GTINs.
+The app assigns the next free number from **Start** up to **End** in your prefix's range. Set **Start** above the highest number you already used.
 
-If a GTIN is already assigned to a product variant in Shopify, the app skips it automatically.
+1. In the GS1 Assistant menu, click **Settings**.
+2. In the **Prefixes** table, scroll right and click the pencil icon on the prefix's row.
 
-Duplicates usually occur when GTINs have been assigned outside the current Shopify store and GS1 Assistant is unaware of them.
+![screenshot:The Prefixes table scrolled right. The pencil icon (2) on the row of prefix 5065023978 is outlined.](PrefixEditIcon.png)
 
-Common examples include:
+3. In **Ranges**, type the **Start** and **End** numbers. **Minimum** and **Maximum** show the lowest and highest number your prefix allows.
 
-- GTINs assigned manually before installing GS1 Assistant
-- GTINs managed in spreadsheets
-- GTINs assigned through your GS1 member organization's portal
-- GTINs used in another Shopify store
-- GTINs assigned in another ecommerce or inventory system
+![screenshot:The Ranges section with Start 51 and End 89 (3) outlined, and Minimum 0 and Maximum 99 below them.](PrefixRanges.png)
 
-Products that were deleted from Shopify but still use GTINs elsewhere.
+4. Click **Save** in the bar at the top of the page.
 
-### Using Assignment Ranges
+**Example:** your prefix allows 0 to 99, and you already used 0 to 36. Set **Start** to 37 and **End** to 99.
 
-Assignment ranges control which GTIN positions GS1 Assistant can use from your company prefix.
+To keep a block of numbers back, add a second range with the plus icon. For example, the ranges 37 to 49 and 60 to 99 leave 50 to 59 unused.
 
-- If this is a brand-new prefix and no GTINs have been assigned yet, you can use the full available range.
-- If you've already used part of your GTIN block, start your assignment ranges after the positions that have already been allocated.
+### Skip GTINs you already used
 
-Example — Create an assignment range:
+If your used GTINs are spread across your prefix, import them as a list to skip.
 
-![screenshot:Create an assignment range](Createanassignmentrange.png)
+1. In the GS1 Assistant menu, click **Settings**.
+2. In the **Prefixes** table, scroll right and click the pencil icon on the prefix's row.
+3. Under **Exclude**, click **Import GTINs to Exlude** and choose the file of used GTINs, for example the export from your GS1 portal.
 
-### Using Multiple Ranges
+![screenshot:The Exclude section with the Import GTINs to Exlude button (3) outlined.](DuplicatesExclude.png)
 
-You can create multiple assignment ranges when parts of your GTIN block are already reserved or allocated elsewhere.
+GS1 Assistant skips those GTINs from then on, even if no Shopify product uses them.
 
-Example:
+### Fix duplicates that already exist
 
-![screenshot:Multiple assignment ranges](Multipleassignmentranges.png)
+The **Duplicate GTINs** tab in **GTIN Manager** lists every GTIN that more than one variant uses. Each GTIN is one row, for example "2 variants".
 
-### Import GTINs Already in Use
+![screenshot:A Duplicate GTINs row with a red bar on the left: 2 variants, Duplicates, GTIN 05065023978496, GS1 UK.](StatusDuplicateRow.png)
 
-If you already have GTINs assigned outside Shopify, you can import them into the Exclude list.
+1. Set **Start** or import an **Exclude** list first (see above), so the replacement GTINs do not collide again.
+2. On the **Duplicate GTINs** tab, click **[number] variants** in the row. A small window lists the variants that share the GTIN, each with an eye icon that opens its page.
+3. Decide which variant keeps the GTIN. If the GTIN is already on a marketplace listing or printed packaging, that product keeps it.
+4. Click the **All** tab, search for each other variant's product, tick the variant, click **Unassign Barcode**, then click **Unassign 1 GTINs**.
 
-Examples include:
+![screenshot:The Unassign 1 GTINs? window with the Unassign 1 GTINs button outlined.](DuplicatesUnassignConfirm.png)
 
-- GTINs downloaded from your GS1 member organization
-- GTINs assigned through another store
-- GTINs managed in spreadsheets
-- GTINs used by products that are no longer in Shopify
+5. Click the **Needs GTIN** tab and assign new GTINs to those variants. See [Assign a GTIN to One Variant](https://gs1assistant.crisp.help/en/article/assign-your-first-gtin-to-a-product-1kpwezj/).
+6. Click **Start Scan**. The GTIN leaves the **Duplicate GTINs** tab.
 
-Click **Import GTINs to Exclude** and upload the GTINs that should never be assigned again.
+> **Warning:** Only remove a GTIN that was never published: not listed on a marketplace, not sent to GS1 and not printed on packaging. A published GTIN stays linked to its product.
 
-GS1 Assistant will treat those GTINs as unavailable, even if they are not attached to a Shopify product.
+### If you used GS1 Assistant before
 
-### Which method should you use?
+If you used the app on another store, or before you reinstalled it, check the **History** section of your variants or your earlier import files to find the highest GTIN you assigned. Then set **Start** above it. If you cannot find your earlier data, click **Help** > **Chat with us** before you assign new GTINs.
 
-**Use Assignment Ranges when:**
+### Troubleshooting
 
-- Large sections of your GTIN block are already allocated
-- You want to reserve blocks for future products
-- You want to separate GTINs across stores, brands, or product lines
+- **A new GTIN is already in use in your GS1 portal.** The app could not see that use. Import the used GTINs under **Exclude**, or raise **Start**, then replace the duplicate.
+- **A deleted product's GTIN came back on a new product.** Raise **Start** above the highest GTIN you ever used.
+- **The Duplicate GTINs count did not go down.** Click **Start Scan**.
 
-**Use Excluded GTINs when:**
+### Related articles
 
-- Specific GTINs are already in use
-- You have a spreadsheet of assigned GTINs
-- You want precise control over which GTINs can never be reused
-
-Many merchants use both methods together.
-
-### If you've already created duplicates
-
-If duplicate GTINs already exist, the dashboard will show them under the Duplicate filter.
-
-![screenshot:Duplicate GTIN filter](DuplicateGTINfilter.png)
-
-**To fix them:**
-
-1. Update your assignment ranges.
-2. Import any GTINs that should be excluded.
-3. Find affected products using the Duplicate filter.
-4. Unassign the duplicate GTINs.
-5. Assign new GTINs.
-
-GS1 Assistant will issue replacement GTINs from available positions in your configured ranges.
-
-### How to Choose Your Assignment Ranges
-
-*If This Is a New Prefix*
-
-Use your full available range.
-
-Example: 0–99
-
-*If You Already Assigned GTINs Manually*
-
-Determine which positions are already in use and create ranges that start after them.
-
-Example:
-
-- Used: 0–36
-- Available: 37–99
-- Range: 37–99
-
-*If You Have Reserved or Previously Assigned GTINs*
-
-Create multiple ranges.
-
-Example:
-
-- 37–49
-- 60–99
-
-This leaves positions 50–59 unavailable for assignment.
-
-### Not Sure How Many GTINs Were Already Used?
-
-Check your GS1 member organization dashboard.
-
-Most GS1 portals show:
-
-- Allocated GTINs
-- Registered products
-- Used sequence counts
-
-If you cannot determine the exact number, it's generally safer to leave a larger gap than to risk reusing an existing GTIN.
-
-### If You Used GS1 Assistant Before
-
-If you previously used GS1 Assistant:
-
-- On another store
-- Before reinstalling
-- In an older setup
-
-Review your previous assignments before creating new ranges.
-
-If available, use your GTIN logs or previous exports to identify the highest assigned positions.
-
-### Cannot Access Your Previous Data?
-
-Contact support before assigning new GTINs.
-
-Creating assignment ranges without knowing which GTINs are already in use can result in duplicate assignments.
-
-**Read next:** *Adding and Managing Your Company Prefix*
+- [Add and Manage Your Company Prefix](https://gs1assistant.crisp.help/en/article/adding-and-managing-your-company-prefix-6cxy7p/)
+- [What the GTIN Status Counts and Tabs Mean](https://gs1assistant.crisp.help/en/article/understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean-cieak9/)
+- [Assign GTINs to Many Variants at Once](https://gs1assistant.crisp.help/en/article/bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once-1vrtodi/)
